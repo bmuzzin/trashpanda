@@ -148,6 +148,36 @@ local function despawn_ball()
 	print("ball_count is "..tostring(ball_count))
 end
 
+local function scale( isInflate )
+	live_unit = nil
+	if SimpleProject.liveIsBall == 1 then
+		print "ball is live"
+		local ball_count = SimpleProject.ball_count
+		if ball_count > 0 then
+			live_unit = SimpleProject.balls[ball_count]
+		end
+	elseif SimpleProject.liveIsBox == 1 then
+		print "box is live"
+		local box_count = SimpleProject.box_count
+		if box_count > 0 then
+			live_unit = SimpleProject.boxes[box_count]
+		end
+	else
+		print "command ignored"
+	end
+	if live_unit then
+		local curr_scale = Unit.local_scale( live_unit, 1 )
+		if isInflate then
+			new_scale = curr_scale * 1.1
+		else
+			new_scale = curr_scale * 0.9
+		end
+		Unit.set_local_scale( live_unit, 1, new_scale )
+	else
+		print "command ignored"
+	end
+end
+
 local function move( delta )
 	live_unit = nil
 	if SimpleProject.liveIsBall == 1 then
@@ -173,18 +203,44 @@ local function move( delta )
 	end
 end
 
-local function old_move( delta )
-	local ball_count = SimpleProject.ball_count
-	if ball_count > 0 then
-		local ball_unit = SimpleProject.balls[ball_count]
-		local ball_mod = ball_count % SimpleProject.base
-		if ball_unit then
-			new_pos = Unit.local_position( ball_unit, 1 ) + delta
-			Unit.set_local_position( ball_unit, 1, new_pos )
+local function rotate( quat )
+	live_unit = nil
+	if SimpleProject.liveIsBall == 1 then
+		print "ball is live"
+		local ball_count = SimpleProject.ball_count
+		if ball_count > 0 then
+			live_unit = SimpleProject.balls[ball_count]
+		end
+	elseif SimpleProject.liveIsBox == 1 then
+		print "box is live"
+		local box_count = SimpleProject.box_count
+		if box_count > 0 then
+			live_unit = SimpleProject.boxes[box_count]
 		end
 	else
 		print "command ignored"
 	end
+	if live_unit then
+		new_rot = Quaternion.multiply(Unit.local_rotation( live_unit, 1 ), quat)
+		Unit.set_local_rotation( live_unit, 1, new_rot )
+	else
+		print "command ignored"
+	end
+end
+
+local function x_rotate()
+	rotate( Quaternion.from_euler_angles_xyz( 90, 0, 0) )
+	print "x rotate processed"
+end
+
+local function y_rotate()
+	rotate( Quaternion.from_euler_angles_xyz( 0, 90, 0) )
+	print "y rotate processed"
+end
+
+local function z_rotate()
+	rotate( Quaternion.from_euler_angles_xyz( 0, 0, 90) )
+	print "z rotate processed"
 end
 
 local function down_move()
@@ -253,6 +309,11 @@ function Project.update(dt)
 	local right = nil
 	local farther = nil
 	local closer = nil
+	local rotateX = nil
+	local rotateY = nil
+	local rotateZ = nil
+	local inflate = nil
+	local deflate = nil
 	if Util.is_pc() then
 		-- check input
 		local index = Keyboard.button_id("s")
@@ -273,6 +334,16 @@ function Project.update(dt)
 		farther = index and Keyboard.pressed(index) 
 		local index = Keyboard.button_id("c")
 		closer = index and Keyboard.pressed(index) 
+		local index = Keyboard.button_id("x")
+		rotateX = index and Keyboard.pressed(index) 
+		local index = Keyboard.button_id("y")
+		rotateY = index and Keyboard.pressed(index) 
+		local index = Keyboard.button_id("z")
+		rotateZ = index and Keyboard.pressed(index) 
+		local index = Keyboard.button_id("d")
+		deflate = index and Keyboard.pressed(index) 
+		local index = Keyboard.button_id("i")
+		inflate = index and Keyboard.pressed(index) 
 	end
 	if sphere then
 		print ("dt is: "..tostring(dt))
@@ -294,6 +365,16 @@ function Project.update(dt)
 		further_move()
 	elseif closer then
 		closer_move()
+	elseif rotateX then
+		x_rotate()
+	elseif rotateY then
+		y_rotate()
+	elseif rotateZ then
+		z_rotate()
+	elseif inflate then
+		scale( true )
+	elseif deflate then
+		scale( false )
 	elseif minus then
 		despawn_ball()
 	end
