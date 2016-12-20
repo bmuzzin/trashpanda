@@ -74,6 +74,15 @@ function hello_world()
     print("HELLO WORLD")
 end
 
+function request_name()
+    --(id, name)
+    stingray.RPC.receive_name(1, "name")
+end
+
+function receive_name(id, name)
+    print(id .. ' ' .. name)    
+end
+
 update_callbacks = {
     ["game_object_created"] = game_object_created,
     ["game_object_destroyed"] = game_object_destroyed,
@@ -81,7 +90,9 @@ update_callbacks = {
     ["game_object_migrated_away"] = game_object_migrated_away,
     ["game_object_sync_done"] = game_object_sync_done,
     ["game_session_disconnect"] = game_session_disconnect,
-    ["hello_world"] = hello_world
+    ["hello_world"] = hello_world,
+    ["request_name"] = request_name,
+    ["receive_name"] = receive_name
 }
 
 -- Optional function called by SimpleProject after world update (we will probably want to split to pre/post appkit calls)
