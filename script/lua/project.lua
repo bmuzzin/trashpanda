@@ -42,7 +42,17 @@ end
 -- Built-ins (need them, or you get an asset)
 function game_object_created(id, creator_id)
     print("game_object_created " .. tostring(id) .. " " .. tostring(creator_id))
+    if (stingray.GameSession.game_object_is_type(SimpleProject.game_session, creator_id, "active_state")) then
+        print("*** Created an active_state object")
+        v0 = stingray.GameSession.game_object_field(SimpleProject.game_session, creator_id, "guessing_player")
+        v1 = stingray.GameSession.game_object_field(SimpleProject.game_session, creator_id, "building_player")
+        print("\tguessing_player = " .. tostring(v0))
+        print("\tbuilding_player = " .. tostring(v1))
+    else
+        print("*** Unknown object type created")
+    end
 end
+
 function game_object_destroyed(id, destroyer_id)
     print("game_object_destroyed " .. tostring(id) .. " " .. tostring(destroyer_id))
 end
@@ -91,6 +101,26 @@ function Project.update(dt)
             print("Creating browser.")
             SimpleProject.lobby_browser = SimpleProject.client:lobby_browser()
             SimpleProject.lobby_wait = 0
+            
+            -- TEMP
+            int_info = stingray.Network.type_info("MyINT")
+            print("int_type:\n")
+            for k,v in pairs(int_info) do
+                print("key = " .. tostring(k) .. " v = " .. tostring(v))
+            end
+            
+            active_state_info = stingray.Network.object_info("active_state")
+            print("active_state:\n")
+            for k,v in pairs(active_state_info) do
+                print("key = " .. tostring(k) .. " v = " .. tostring(v))
+            end
+            print("\tfields:")
+            for k,v in pairs(active_state_info.fields) do
+                print("\tkey = " .. tostring(k) .. " v = " .. tostring(v))
+                for k0, v0 in pairs(v) do
+                print("\t\tkey = " .. tostring(k0) .. " v = " .. tostring(v0))
+                end
+            end
         end
         -- Must have a client now, or you're hosed.
         if (SimpleProject.client == nil) then
@@ -154,7 +184,7 @@ function Project.update(dt)
                 -- Create the synchronized object state.
                 -- NOTE: Guessing player always host, and starting other player always the next (assume at least two players)
                 SimpleProject.active_state = stingray.GameSession.create_game_object(SimpleProject.game_session, "active_state", 
-                    { guessing_player = members[1], building_player = members[2] } )
+                    { guessing_player = 1, building_player = 2 } )
 
                 -- Remove all the lobby/etc members
                 SimpleProject.lobby = nil
