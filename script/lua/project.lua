@@ -63,13 +63,6 @@ end
 function Project.on_level_shutdown_post_flow()
 end
 
-local function despawn_crate()
-	print("despawn_crate{")
-	local ball_count = SimpleProject.ball_count
-	local crate_count = (ball_count / (SimpleProject.base*SimpleProject.base) )
-	print("}end-despawn_crate")
-end
-
 local function spawn_crate()
 	print("spawn_crate{")
 	local ball_count = SimpleProject.ball_count
@@ -77,38 +70,7 @@ local function spawn_crate()
 	print("}end-spawn_crate")
 end
 
-local function despawn_box()
-	print("despawn_box{")
-	local ball_count = SimpleProject.ball_count
-	local box_count = (ball_count / SimpleProject.base )
-	local box_mod = box_count % SimpleProject.base
-	if box_mod == 0 then
-		despawn_crate()
-	end
-	if box_count > 0 then
-		local box_unit = SimpleProject.boxes[box_count]
-		if box_unit then
-			table.remove( SimpleProject.boxes, box_count )
-			local world = SimpleProject.world
-			ComponentManager.remove_components(box_unit)
-			World.destroy_unit(world, box_unit)
-		end
-		local i = ball_count
-		local numBallsInBox = SimpleProject.base
-		local pose_zero = stingray.Vector3(4.5,3.5,0.15)
-		-- local pose_zero = SimpleProject.ball_pos
-		while (numBallsInBox > 0 ) do
-			numBallsInBox = numBallsInBox - 1
-			local ball_unit = SimpleProject.balls[i]
-			Unit.set_local_position( ball_unit, 1, pose_zero )
-			i = i - 1
-		end
-	end
-	print("box_count is "..tostring(box_count))
-	print("}end-despawn_box")
-end
-
-local function spawn_box()
+function spawn_box(createID)
 	print("spawn_box{")
 	SimpleProject.liveIsBall = 0
 	SimpleProject.liveIsBox = 1
@@ -123,29 +85,47 @@ local function spawn_box()
 	local totalSteps = 2
 	print("box_count is: "..tostring(box_count))
 	print("}end-spawn_box")
+	
+	-- Network object.
+	if (createID) then
+	    local networkID = SimpleProject.config.game_state.createActiveObject(ObjectTypes.box, init_box_pos)
+	    Unit.set_data(box_unit, "networkID", networkID)
+   end
+   return box_unit
 end
 
-local function despawn_ball()
-	local ball_count = SimpleProject.ball_count
-	if ball_count > 0 then
-		local ball_unit = SimpleProject.balls[ball_count]
-		local ball_mod = ball_count % SimpleProject.base
-		--if ball_mod == 0 then
-		--	despawn_box()
-		--end
-		if ball_unit then
-			table.remove( SimpleProject.balls, ball_count )
-			local world = SimpleProject.world
-			ComponentManager.remove_components(ball_unit)
-			World.destroy_unit(world, ball_unit)
+local function scale( isInflate )
+	live_unit = nil
+	if SimpleProject.liveIsBall == 1 then
+		print "ball is live"
+		local ball_count = SimpleProject.ball_count
+		if ball_count > 0 then
+			live_unit = SimpleProject.balls[ball_count]
 		end
-		ball_count = ball_count - 1
-		SimpleProject.ball_count = ball_count
-		print "minus processed"
+	elseif SimpleProject.liveIsBox == 1 then
+		print "box is live"
+		local box_count = SimpleProject.box_count
+		if box_count > 0 then
+			live_unit = SimpleProject.boxes[box_count]
+		end
 	else
-		print "minus ignored"
+		print "command ignored"
 	end
-	print("ball_count is "..tostring(ball_count))
+	if live_unit then
+		local curr_scale = Unit.local_scale( live_unit, 1 )
+		if isInflate then
+			new_scale = curr_scale * 1.1
+		else
+			new_scale = curr_scale * 0.9
+		end
+		Unit.set_local_scale( live_unit, 1, new_scale )
+
+		-- network update.
+		local networkID = Unit.get_data(live_unit, "networkID")
+		SimpleProject.config.game_state.updateActiveObjectScale(networkID, new_scale)
+	else
+		print "command ignored"
+	end
 end
 
 local function scale( isInflate )
@@ -198,6 +178,10 @@ local function move( delta )
 	if live_unit then
 		new_pos = Unit.local_position( live_unit, 1 ) + delta
 		Unit.set_local_position( live_unit, 1, new_pos )
+
+		-- network update.
+		local networkID = Unit.get_data(live_unit, "networkID")
+		SimpleProject.config.game_state.updateActiveObjectPosition(networkID, new_pos)
 	else
 		print "command ignored"
 	end
@@ -223,6 +207,10 @@ local function rotate( quat )
 	if live_unit then
 		new_rot = Quaternion.multiply(Unit.local_rotation( live_unit, 1 ), quat)
 		Unit.set_local_rotation( live_unit, 1, new_rot )
+		
+		-- network update.
+		local networkID = Unit.get_data(live_unit, "networkID")
+		SimpleProject.config.game_state.updateActiveObjectRotation(networkID, new_rot)
 	else
 		print "command ignored"
 	end
@@ -273,7 +261,7 @@ local function right_move()
 	print "right processed"
 end
 
-local function spawn_ball()
+function spawn_ball(createID)
 	print("spawn_ball{")
 	SimpleProject.liveIsBall = 1
 	print "ball is live"
@@ -285,7 +273,16 @@ local function spawn_ball()
 	print("ball_count is "..tostring(ball_count))
 	local ball_mod = ball_count % SimpleProject.base
 	print("}end-spawn_ball")
-	return World.spawn_unit(SimpleProject.world, "content/models/balls/ball_1", pose_zero)
+	
+	local ball_unit = World.spawn_unit(SimpleProject.world, "content/models/balls/ball_1", pose_zero)
+
+	-- Network object.
+	if (createID) then
+    	local networkID = SimpleProject.config.game_state.createActiveObject(ObjectTypes.ball, init_box_pos)
+    	Unit.set_data(ball_unit, "networkID", networkID)
+    end
+    table.insert( SimpleProject.balls, ball_unit )
+    return ball_unit
 end
 
 -- Optional function called by SimpleProject after world update (we will probably want to split to pre/post appkit calls)
@@ -347,11 +344,10 @@ function Project.update(dt)
 	end
 	if sphere then
 		print ("dt is: "..tostring(dt))
-		local ball_unit = spawn_ball()
-		table.insert( SimpleProject.balls, ball_unit )
+		local ball_unit = spawn_ball(true)
 	elseif box then
 		print ("dt is: "..tostring(dt))
-		local box_unit = spawn_box()
+		local box_unit = spawn_box(true)
 		--table.insert( SimpleProject.boxes, box_unit )
 	elseif down then
 		down_move()
@@ -375,8 +371,8 @@ function Project.update(dt)
 		scale( true )
 	elseif deflate then
 		scale( false )
-	elseif minus then
-		despawn_ball()
+	else
+		return
 	end
 end
 

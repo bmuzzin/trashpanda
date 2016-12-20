@@ -1,3 +1,5 @@
+local Unit = stingray.Unit
+
 -- config parameters
 LobbyWaitTime = 4      -- seconds before creating your own lobby
 GameRequiredMembers = 2 -- number of players you need to make a game
@@ -16,6 +18,12 @@ GameState =
     game_mode = 0,          -- mode the game is currently in
 }
 
+ObjectTypes =
+{
+    ball = 1,
+    box = 2,
+    crate = 3
+}
 
 function printLobbyState(lobby)
     print("state = " .. lobby:state())
@@ -31,6 +39,27 @@ function game_object_created(id, creator_id)
         v1 = stingray.GameSession.game_object_field(SimpleProject.game_session, creator_id, "building_player")
         print("\tguessing_player = " .. tostring(v0))
         print("\tbuilding_player = " .. tostring(v1))
+    elseif(stingray.GameSession.game_object_is_type(SimpleProject.game_session, creator_id, "active_object")) then
+        print("*** Created active_object!")
+        v0 = stingray.GameSession.game_object_field(SimpleProject.game_session, creator_id, "type")
+        v1 = stingray.GameSession.game_object_field(SimpleProject.game_session, creator_id, "position")
+        v2 = stingray.GameSession.game_object_field(SimpleProject.game_session, creator_id, "rotation")
+        v3 = stingray.GameSession.game_object_field(SimpleProject.game_session, creator_id, "scale")
+        print("\type = " .. tostring(v0))
+        print("\tposition = " .. tostring(v1))
+        print("\trotation = " .. tostring(v2))
+        print("\tscale = " .. tostring(v3))
+        
+        -- Spawn the unit, and update properties
+        local unit = nil
+        if (v0 == ObjectTypes.ball) then
+            unit = spawn_ball(false)
+        elseif(v0 == ObjectTypes.box) then
+            unit = spawn_box(false)
+        end
+        Unit.set_local_position(unit, 1, v1)
+        Unit.set_local_rotation(unit, 1, v2)
+        Unit.set_local_scale(unit, 1, v3)
     else
         print("*** Unknown object type created")
     end
@@ -197,4 +226,27 @@ function GameState.update(SimpleProject, dt)
             SimpleProject.send_hello = 1
         end
     end
+end
+
+function GameState.createActiveObject(objType, pos)
+    return stingray.GameSession.create_game_object(SimpleProject.game_session, "active_object", 
+        { 
+            type = objType, 
+            position = pos, 
+            rotation = stingray.Quaternion(stingray.Vector3(0,0,0),0), 
+            scale = stingray.Vector3(1,1,1)
+            
+        })
+end
+
+function GameState.updateActiveObjectPosition(id, pos)
+    stingray.GameSession.set_game_object_field(SimpleProject.game_session, id, "position", pos)
+end
+
+function GameState.updateActiveObject(id, rot)
+    stingray.GameSession.set_game_object_field(SimpleProject.game_session, id, "rotation", rot)
+end
+
+function GameState.updateActiveObject(id, scl)
+    stingray.GameSession.set_game_object_field(SimpleProject.game_session, id, "scale", scl)
 end

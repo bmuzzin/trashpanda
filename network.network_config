@@ -1,6 +1,8 @@
 types =
 {
     "MyINT" = {type= "int", bits=32}
+    "MyVECTOR" = {type= "vector3"}
+    "MyQUAT" = {type= "quaternion"}
 }
 
 
@@ -15,6 +17,17 @@ objects =
         ],
         priority = 1,
         update_rate = 0.01,
+    }
+    
+    active_object =
+    {
+        fields =
+        [
+            {name = "type",      type = "MyINT"},        // the value corresponds to the object type (currently, sphere = 1, box = 2)
+            {name = "position",  type = "MyVECTOR"},
+            {name = "rotation",  type = "MyQUAT"},
+            {name = "scale",     type = "MyVECTOR"}
+        ],
     }
 }
 
