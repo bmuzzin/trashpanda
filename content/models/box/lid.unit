@@ -1,0 +1,25 @@
+
+materials = {
+	StingrayPBS13 = "content/models/box/StingrayPBS13"
+	StingrayPBS15 = "content/models/box/StingrayPBS15"
+}
+renderables = {
+	box3 = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	lid = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}
