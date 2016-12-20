@@ -39,7 +39,8 @@ function MainMenu.start()
 	end
 
 	if scaleform then
-		scaleform.Stingray.load_project_and_scene("content/ui/simple_menu.s2d/simple_menu")
+		--scaleform.Stingray.load_project_and_scene("content/ui/simple_menu.s2d/simple_menu")
+		scaleform.Stingray.load_project_and_scene("content/ui/trash_panda.s2d/trash_panda")
 		--Register menu button mouse listener
 		local custom_listener = MainMenu.custom_listener
 		custom_listener = scaleform.EventListener.create(custom_listener, MainMenu.on_custom_event)

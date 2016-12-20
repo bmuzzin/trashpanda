@@ -15,6 +15,7 @@ GameModes =
 GameState = 
 {
     game_mode = 2,          -- mode the game is currently in
+    name = ""               -- player's name
 }
 
 
