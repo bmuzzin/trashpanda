@@ -274,3 +274,10 @@ function GameState.updateActiveObjectFromNetwork(unit)
     Unit.set_local_rotation(unit,1,rot)
     Unit.set_local_scale(unit,1,scl)
 end
+
+function GameState.shutdown(SimpleProject)
+    if (SimpleProject.client ~= nil) then
+        stingray.Network.shutdown_lan_client(SimpleProject.client)
+        SimpleProject.client = nil
+    end
+end

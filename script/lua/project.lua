@@ -378,6 +378,7 @@ end
 
 -- Optional function called by SimpleProject *before* appkit/level/player/world shutdown
 function Project.shutdown()
+    SimpleProject.config.game_state.shutdown(SimpleProject)
 end
 
 return Project
