@@ -10,13 +10,15 @@ GameModes =
 {
     lobby =0,           -- collecting players (GameState.game_mode)
     active = 1,         -- actively playingthe game
+    name_input = 2,     -- Waiting for the user to input name
 }
 
 
-GameState = 
+GameState =
 {
     game_mode = 0,          -- mode the game is currently in
-    update_units = {}       -- units that need update from the network
+    update_units = {},       -- units that need update from the network
+    name = ""               -- player's name
 }
 
 ObjectTypes =
@@ -50,7 +52,7 @@ function game_object_created(id, creator_id)
         print("\tposition = " .. tostring(v1))
         print("\trotation = " .. tostring(v2))
         print("\tscale = " .. tostring(v3))
-        
+
         -- Spawn the unit, and update properties
         local unit = nil
         if (v0 == ObjectTypes.ball) then
@@ -101,12 +103,12 @@ update_callbacks = {
 
 -- Optional function called by SimpleProject after world update (we will probably want to split to pre/post appkit calls)
 function GameState.update(SimpleProject, dt)
-    
+
     -- always need to update the network
     stingray.Network.update(dt, update_callbacks)
-    
+
     if (SimpleProject.config.game_state.game_mode == GameModes.lobby) then
-        
+
         -- CREATE CLIENT
         -- When done, SimpleProject.lobby_wait will be non-nil.
         -- Create the client.
@@ -116,14 +118,14 @@ function GameState.update(SimpleProject, dt)
             print("Creating browser.")
             SimpleProject.lobby_browser = SimpleProject.client:lobby_browser()
             SimpleProject.lobby_wait = 0
-            
+
             -- TEMP
             int_info = stingray.Network.type_info("MyINT")
             print("int_type:\n")
             for k,v in pairs(int_info) do
                 print("key = " .. tostring(k) .. " v = " .. tostring(v))
             end
-            
+
             active_state_info = stingray.Network.object_info("active_state")
             print("active_state:\n")
             for k,v in pairs(active_state_info) do
@@ -141,7 +143,7 @@ function GameState.update(SimpleProject, dt)
         if (SimpleProject.client == nil) then
             error("Couldn't connect to lan-client?")
         end
-        
+
         -- JOIN/CREATE LOBBY
         -- When done, SimpleProject.lobby will be non-nil (also sets is_host true/false)
         -- Attempt to join a lobby (wait 10 seconds, and then create a new one)
@@ -166,7 +168,7 @@ function GameState.update(SimpleProject, dt)
                     SimpleProject.lobby_browser:refresh(LANLobbyPort)
                 end
             end
-        
+
             -- If there is a lobby, kill the wait_time
             if (SimpleProject.lobby ~= nil) then
                 printLobbyState(SimpleProject.lobby)
@@ -183,29 +185,29 @@ function GameState.update(SimpleProject, dt)
 
             -- Everybody creates the game session
             SimpleProject.game_session = stingray.Network.create_game_session()
-            
+
             -- The host is the one that adds the members, and creates the initial objects.
             if (SimpleProject.is_host) then
                 -- Create the session, and add everybody in the lobby.
                 SimpleProject.game_session:make_game_session_host()
                 local members = SimpleProject.lobby:members()
-                for i, peer in ipairs(members) do 
+                for i, peer in ipairs(members) do
                     if (i ~= 1) then  -- don't add us, joined automatically
                         print("Adding: " .. peer)
                         SimpleProject.game_session:add_peer(peer)
                     end
                 end
-            
+
                 -- Create the synchronized object state.
                 -- NOTE: Guessing player always host, and starting other player always the next (assume at least two players)
-                SimpleProject.active_state = stingray.GameSession.create_game_object(SimpleProject.game_session, "active_state", 
+                SimpleProject.active_state = stingray.GameSession.create_game_object(SimpleProject.game_session, "active_state",
                     { guessing_player = 1, building_player = 2 } )
 
                 -- Remove all the lobby/etc members
                 SimpleProject.lobby = nil
                 SimpleProject.lobby_browser = nil
             end
-            
+
             -- Everybody goes into the next state of the game now.
             SimpleProject.config.game_state.game_mode = GameModes.active
         else
@@ -220,7 +222,7 @@ function GameState.update(SimpleProject, dt)
             end
         end
     elseif(SimpleProject.config.game_state.game_mode == GameModes.active) then
-    
+
         -- HELLO WORLD. Indicates the game has started.
         if (SimpleProject.game_session:in_session() and not SimpleProject.send_hello) then
             print("In state: Active")
@@ -230,7 +232,7 @@ function GameState.update(SimpleProject, dt)
             end
             SimpleProject.send_hello = 1
         end
-        
+
         -- If we get any objects from other players, constantly update their positions.
         for i, unit in ipairs(GameState.update_units) do
             GameState.updateActiveObjectFromNetwork(unit)
@@ -254,11 +256,11 @@ function GameState.createActiveObject(objType, unit)
 	local pos = Unit.world_position(unit,1)
 	local rot = Unit.world_rotation(unit,1)
 	local scl = stingray.Matrix4x4.scale(Unit.world_pose(unit,1))
-    local networkID = stingray.GameSession.create_game_object(session, "active_object", 
-        { 
-            type = objType, 
-            position = pos, 
-            rotation = rot, 
+    local networkID = stingray.GameSession.create_game_object(session, "active_object",
+        {
+            type = objType,
+            position = pos,
+            rotation = rot,
             scale = scl
         })
     Unit.set_data(unit, "networkID", networkID)
