@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "5e61d148-ca0b-4b0d-a123-aa6129866a97"
+_name = "content/models/box/lid"
+anim_controller_ref = {
+	_id = "131536b9-939f-4369-818b-fc7313a51048"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "d29dc11d-0727-40cd-8b66-7f902cdfeb79"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "6d603615-0720-485a-8c73-38dd15f8dfc3"
+	ref_filename = "content/models/box/lid.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/box/lid"

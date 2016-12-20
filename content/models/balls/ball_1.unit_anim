@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "7b4155ac-c9c2-425a-88d1-c71bc4a8ceb5"
+_name = "content/models/balls/ball_1"
+anim_controller_ref = {
+	_id = "a9c01786-0e67-48e0-ae42-dc19523297a1"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "47c248ad-9acc-473e-a13b-5b1c307e0e18"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "e01b2f93-85dd-4b25-8891-63a1cd8b66e0"
+	ref_filename = "content/models/balls/ball_1.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/balls/ball_1"
