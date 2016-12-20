@@ -88,8 +88,7 @@ function spawn_box(createID)
 	
 	-- Network object.
 	if (createID) then
-	    local networkID = SimpleProject.config.game_state.createActiveObject(ObjectTypes.box, init_box_pos)
-	    Unit.set_data(box_unit, "networkID", networkID)
+	    SimpleProject.config.game_state.createActiveObject(ObjectTypes.box, box_unit)
    end
    return box_unit
 end
@@ -121,8 +120,7 @@ local function scale( isInflate )
 		Unit.set_local_scale( live_unit, 1, new_scale )
 
 		-- network update.
-		local networkID = Unit.get_data(live_unit, "networkID")
-		SimpleProject.config.game_state.updateActiveObjectScale(networkID, new_scale)
+		SimpleProject.config.game_state.updateActiveObject(live_unit)
 	else
 		print "command ignored"
 	end
@@ -180,8 +178,7 @@ local function move( delta )
 		Unit.set_local_position( live_unit, 1, new_pos )
 
 		-- network update.
-		local networkID = Unit.get_data(live_unit, "networkID")
-		SimpleProject.config.game_state.updateActiveObjectPosition(networkID, new_pos)
+		SimpleProject.config.game_state.updateActiveObject(live_unit)
 	else
 		print "command ignored"
 	end
@@ -210,7 +207,7 @@ local function rotate( quat )
 		
 		-- network update.
 		local networkID = Unit.get_data(live_unit, "networkID")
-		SimpleProject.config.game_state.updateActiveObjectRotation(networkID, new_rot)
+		SimpleProject.config.game_state.updateActiveObject(live_unit)
 	else
 		print "command ignored"
 	end
@@ -278,8 +275,7 @@ function spawn_ball(createID)
 
 	-- Network object.
 	if (createID) then
-    	local networkID = SimpleProject.config.game_state.createActiveObject(ObjectTypes.ball, init_box_pos)
-    	Unit.set_data(ball_unit, "networkID", networkID)
+    	SimpleProject.config.game_state.createActiveObject(ObjectTypes.ball, ball_unit)
     end
     table.insert( SimpleProject.balls, ball_unit )
     return ball_unit

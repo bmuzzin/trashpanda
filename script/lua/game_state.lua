@@ -16,6 +16,7 @@ GameModes =
 GameState = 
 {
     game_mode = 0,          -- mode the game is currently in
+    update_units = {}       -- units that need update from the network
 }
 
 ObjectTypes =
@@ -60,6 +61,8 @@ function game_object_created(id, creator_id)
         Unit.set_local_position(unit, 1, v1)
         Unit.set_local_rotation(unit, 1, v2)
         Unit.set_local_scale(unit, 1, v3)
+        Unit.set_data(unit, "networkID", creator_id)
+        table.insert(GameState.update_units, unit)
     else
         print("*** Unknown object type created")
     end
@@ -217,6 +220,8 @@ function GameState.update(SimpleProject, dt)
             end
         end
     elseif(SimpleProject.config.game_state.game_mode == GameModes.active) then
+    
+        -- HELLO WORLD. Indicates the game has started.
         if (SimpleProject.game_session:in_session() and not SimpleProject.send_hello) then
             print("In state: Active")
             for i,peer in ipairs(SimpleProject.game_session:other_peers()) do
@@ -225,28 +230,47 @@ function GameState.update(SimpleProject, dt)
             end
             SimpleProject.send_hello = 1
         end
+        
+        -- If we get any objects from other players, constantly update their positions.
+        for i, unit in ipairs(GameState.update_units) do
+            GameState.updateActiveObjectFromNetwork(unit)
+        end
     end
 end
 
-function GameState.createActiveObject(objType, pos)
-    return stingray.GameSession.create_game_object(SimpleProject.game_session, "active_object", 
+function GameState.updateActiveObject(unit)
+    local session = stingray.Network.game_session()
+	local id = Unit.get_data(unit, "networkID")
+	local pos = Unit.local_position(unit,1)
+	local rot = Unit.local_rotation(unit,1)
+	local scl = stingray.Matrix4x4.scale(Unit.local_pose(unit,1))
+    stingray.GameSession.set_game_object_field(session, id, "position", pos)
+    stingray.GameSession.set_game_object_field(session, id, "rotation", rot)
+    stingray.GameSession.set_game_object_field(session, id, "scale", scl)
+end
+
+function GameState.createActiveObject(objType, unit)
+    local session = stingray.Network.game_session()
+	local pos = Unit.world_position(unit,1)
+	local rot = Unit.world_rotation(unit,1)
+	local scl = stingray.Matrix4x4.scale(Unit.world_pose(unit,1))
+    local networkID = stingray.GameSession.create_game_object(session, "active_object", 
         { 
             type = objType, 
             position = pos, 
-            rotation = stingray.Quaternion(stingray.Vector3(0,0,0),0), 
-            scale = stingray.Vector3(1,1,1)
-            
+            rotation = rot, 
+            scale = scl
         })
+    Unit.set_data(unit, "networkID", networkID)
 end
 
-function GameState.updateActiveObjectPosition(id, pos)
-    stingray.GameSession.set_game_object_field(SimpleProject.game_session, id, "position", pos)
-end
-
-function GameState.updateActiveObject(id, rot)
-    stingray.GameSession.set_game_object_field(SimpleProject.game_session, id, "rotation", rot)
-end
-
-function GameState.updateActiveObject(id, scl)
-    stingray.GameSession.set_game_object_field(SimpleProject.game_session, id, "scale", scl)
+function GameState.updateActiveObjectFromNetwork(unit)
+    local session = stingray.Network.game_session()
+	local id = Unit.get_data(unit, "networkID")
+    local pos = stingray.GameSession.game_object_field(session, id, "position")
+    local rot = stingray.GameSession.game_object_field(session, id, "rotation")
+    local scl = stingray.GameSession.game_object_field(session, id, "scale")
+    Unit.set_local_position(unit,1,pos)
+    Unit.set_local_rotation(unit,1,rot)
+    Unit.set_local_scale(unit,1,scl)
 end
