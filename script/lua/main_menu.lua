@@ -13,6 +13,8 @@ local Util = require 'core/appkit/lua/util'
 local SimpleProject = require 'core/appkit/lua/simple_project'
 local DebugMenu = require 'core/appkit/lua/debug_menu'
 
+require 'script/lua/game_state'
+
 Project.MainMenu = Project.MainMenu or {}
 local MainMenu = Project.MainMenu
 
@@ -104,6 +106,11 @@ function MainMenu.update(object, dt)
 		MainMenu.debug_menu:update()
 	end
 
+    -- TEMP, just skip right to the active game.
+    if GameState and GameState.game_mode == GameModes.pick_state then
+        MainMenu.action = "start"
+    end
+    
 	if MainMenu.action == nil  then
 		local time = stingray.World.time(SimpleProject.world)
 		local p = stingray.Application.platform()

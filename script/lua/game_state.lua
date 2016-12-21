@@ -238,7 +238,7 @@ function GameState.update(SimpleProject, dt)
 
         -- If we get any objects from other players, constantly update their positions.
         for i, unit in ipairs(GameState.update_units) do
-            GameState.updateActiveObjectFromNetwork(unit)
+            GameState.updateActiveObjectFromNetwork(SimpleProject, unit)
         end
     end
 end
