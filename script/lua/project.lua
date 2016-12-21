@@ -39,6 +39,12 @@ function Project.on_level_load_pre_flow()
 	-- is an unsaved Test Level.
 	SimpleProject.ball_count = 0
 	SimpleProject.box_count = 0
+	-- Change setupCamera to true to have a camera that you can use to view the 
+	-- geometry from different view points. The other bits of UI do not display
+	-- (e.g., object shelf at the bottom) so it's currently disabled
+	--
+	SimpleProject.setupCamera = false
+	SimpleProject.cameraExists = false
 	SimpleProject.liveIsBall = 0
 	SimpleProject.liveIsBox = 0
 	SimpleProject.balls = {}
@@ -301,6 +307,15 @@ function Project.update(dt)
 	local pos = stingray.Vector3(5.0,-0.5,0.15)
 	pos = stingray.Vector3(5.0,-2.0,0.15)
 	pos = stingray.Vector3(5.0,-3.5,0.15)
+	if SimpleProject.setupCamera then
+		--local view_position = Appkit.get_editor_view_position() or stingray.Vector3(0,-14,4)
+		local view_position = Appkit.get_editor_view_position() or stingray.Vector3(10,-2,.5)
+		local view_rotation = stingray.Quaternion.from_elements(.008193,0.004561,-0.4863,-.8737)
+		local Player = require 'script/lua/player'
+		Player.spawn_player(SimpleProject.level, view_position, view_rotation)
+		SimpleProject.setupCamera = false
+		SimpleProject.cameraExists = true
+	end
 	local sphere = nil
 	local box = nil
 	local minus = nil
@@ -317,7 +332,7 @@ function Project.update(dt)
 	local deflate = nil
 	if Util.is_pc() then
 		-- check input
-		local index = Keyboard.button_id("s")
+		local index = Keyboard.button_id("o")
 		sphere = index and Keyboard.pressed(index) 
 		local index = Keyboard.button_id("b")
 		box = index and Keyboard.pressed(index) 
@@ -341,7 +356,7 @@ function Project.update(dt)
 		rotateY = index and Keyboard.pressed(index) 
 		local index = Keyboard.button_id("z")
 		rotateZ = index and Keyboard.pressed(index) 
-		local index = Keyboard.button_id("d")
+		local index = Keyboard.button_id("u")
 		deflate = index and Keyboard.pressed(index) 
 		local index = Keyboard.button_id("i")
 		inflate = index and Keyboard.pressed(index) 
@@ -349,6 +364,10 @@ function Project.update(dt)
 	if sphere then
 		print ("dt is: "..tostring(dt))
 		local ball_unit = spawn_ball(true)
+		if SimpleProject.cameraExists then
+			local view_rotation = Unit.local_rotation(SimpleProject.camera_unit,1)
+			print ("view_rotation is: "..tostring(view_rotation))
+		end
 	elseif box then
 		print ("dt is: "..tostring(dt))
 		local box_unit = spawn_box(true)
