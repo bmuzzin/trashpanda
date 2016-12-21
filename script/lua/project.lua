@@ -47,11 +47,15 @@ function Project.on_level_load_pre_flow()
 	SimpleProject.box_pos = stingray.Vector3(4.5,0.5,0.15)
 	SimpleProject.base = 10
 	local level_name = SimpleProject.level_name
-	if level_name == nil or level_name ~= Project.level_names.menu then
+	if level_name == nil or level_name == Project.level_names.basic then
 		local view_position = Appkit.get_editor_view_position() or stingray.Vector3(0,-14,4)
 		local view_rotation = Appkit.get_editor_view_rotation() or stingray.Quaternion.identity()
 		local Player = require 'script/lua/player'
 		Player.spawn_player(SimpleProject.level, view_position, view_rotation)
+        SimpleProject.config.game_state.game_mode = GameModes.active
+    	if scaleform then
+		    scaleform.Stingray.load_project_and_scene("content/ui/trash_panda_ingame.s2d/trash_panda_ingame")
+		end
 	elseif level_name == Project.level_names.menu then
 		local MainMenu = require 'script/lua/main_menu'
 		MainMenu.start()
@@ -88,7 +92,7 @@ function spawn_box(createID)
 	
 	-- Network object.
 	if (createID) then
-	    SimpleProject.config.game_state.createActiveObject(ObjectTypes.box, box_unit)
+	    SimpleProject.config.game_state.createActiveObject(SimpleProject, ObjectTypes.box, box_unit)
    end
    return box_unit
 end
@@ -120,7 +124,7 @@ local function scale( isInflate )
 		Unit.set_local_scale( live_unit, 1, new_scale )
 
 		-- network update.
-		SimpleProject.config.game_state.updateActiveObject(live_unit)
+		SimpleProject.config.game_state.updateActiveObject(SimpleProject, live_unit)
 	else
 		print "command ignored"
 	end
@@ -178,7 +182,7 @@ local function move( delta )
 		Unit.set_local_position( live_unit, 1, new_pos )
 
 		-- network update.
-		SimpleProject.config.game_state.updateActiveObject(live_unit)
+		SimpleProject.config.game_state.updateActiveObject(SimpleProject, live_unit)
 	else
 		print "command ignored"
 	end
@@ -206,8 +210,7 @@ local function rotate( quat )
 		Unit.set_local_rotation( live_unit, 1, new_rot )
 		
 		-- network update.
-		local networkID = Unit.get_data(live_unit, "networkID")
-		SimpleProject.config.game_state.updateActiveObject(live_unit)
+		SimpleProject.config.game_state.updateActiveObject(SimpleProject, live_unit)
 	else
 		print "command ignored"
 	end
@@ -275,7 +278,7 @@ function spawn_ball(createID)
 
 	-- Network object.
 	if (createID) then
-    	SimpleProject.config.game_state.createActiveObject(ObjectTypes.ball, ball_unit)
+    	SimpleProject.config.game_state.createActiveObject(SimpleProject, ObjectTypes.ball, ball_unit)
     end
     table.insert( SimpleProject.balls, ball_unit )
     return ball_unit

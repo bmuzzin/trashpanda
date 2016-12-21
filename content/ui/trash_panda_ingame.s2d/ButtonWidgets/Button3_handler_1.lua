@@ -20,19 +20,8 @@ local handler = {
 
     -- Invoked when the button is clicked
     clicked = function()
-        local scene = scaleform.Actor.scene(thisActor);
-        
-        local input = scaleform.Actor.actor_by_name_path(scene, "txtName")
-        
-        --GameState from trashpanda stingray project
-        GameState = GameState or {}
+        print(actorName .. " button clicked")
 
-        local animation = scaleform.Actor.component_by_name(scene, "Animation")
-        scaleform.AnimationComponent.goto_label(animation, "build")
-        
-        if GameModes then
-            GameState.game_mode = GameModes.pick_state
-        end
         -- The code below gives an example of how to dispatch a custom event from this event handler function.
         --[[
         local evt = { eventId = scaleform.EventTypes.Custom,

@@ -224,7 +224,7 @@ function GameState.update(SimpleProject, dt)
                 SimpleProject.print_wait = 0
             end
         end
-    elseif(SimpleProject.config.game_state.game_mode == GameModes.active) then
+    elseif(SimpleProject.config.game_state.game_mode == GameModes.active and SimpleProject.game_session ~= nil) then
 
         -- HELLO WORLD. Indicates the game has started.
         if (SimpleProject.game_session:in_session() and not SimpleProject.send_hello) then
@@ -243,8 +243,10 @@ function GameState.update(SimpleProject, dt)
     end
 end
 
-function GameState.updateActiveObject(unit)
-    local session = stingray.Network.game_session()
+function GameState.updateActiveObject(SimpleProject, unit)
+    --local session = stingray.Network.game_session()
+    local session = SimpleProject.game_session
+    if (session == nil) then return end
 	local id = Unit.get_data(unit, "networkID")
 	local pos = Unit.local_position(unit,1)
 	local rot = Unit.local_rotation(unit,1)
@@ -254,8 +256,10 @@ function GameState.updateActiveObject(unit)
     stingray.GameSession.set_game_object_field(session, id, "scale", scl)
 end
 
-function GameState.createActiveObject(objType, unit)
-    local session = stingray.Network.game_session()
+function GameState.createActiveObject(SimpleProject, objType, unit)
+    --local session = stingray.Network.game_session()
+    local session = SimpleProject.game_session
+    if (session == nil) then return end
 	local pos = Unit.world_position(unit,1)
 	local rot = Unit.world_rotation(unit,1)
 	local scl = stingray.Matrix4x4.scale(Unit.world_pose(unit,1))
@@ -269,8 +273,10 @@ function GameState.createActiveObject(objType, unit)
     Unit.set_data(unit, "networkID", networkID)
 end
 
-function GameState.updateActiveObjectFromNetwork(unit)
-    local session = stingray.Network.game_session()
+function GameState.updateActiveObjectFromNetwork(SimpleProject, unit)
+    --local session = stingray.Network.game_session()
+    local session = SimpleProject.game_session
+    if (session == nil) then return end
 	local id = Unit.get_data(unit, "networkID")
     local pos = stingray.GameSession.game_object_field(session, id, "position")
     local rot = stingray.GameSession.game_object_field(session, id, "rotation")

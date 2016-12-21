@@ -1,7 +1,7 @@
 {
     "@objects": [
 		{
-			"Id": "934729489293437589",
+			"Id": "10138729581721097217",
 			"DynamicProperties": {},
 			"Owner": null,
 			"Author": "",
@@ -9,7 +9,7 @@
 			"StageWidth": 1280,
 			"StageHeight": 720,
 			"FramesPerSec": 30,
-			"AutoLoadScene": "welcome.s2dscene",
+			"AutoLoadScene": "Scene0.s2dscene",
 			"Script": "",
 			"GridOptionsData": {
 				"CellWidth": 16,
@@ -39,7 +39,7 @@
 				"AnchorThreshold": 15.000000
 			},
 			"@meta": {
-				"@id": 372595563,
+				"@id": 1741088675,
 				"@typeid": 153080644
 			}
 		}
