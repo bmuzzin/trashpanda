@@ -23,7 +23,7 @@ Project.level_names = {
 -- Can provide a config for the basic project, or it will use a default if not.
 local SimpleProject = require 'core/appkit/lua/simple_project'
 SimpleProject.config = {
-	standalone_init_level_name = Project.level_names.basic,
+	standalone_init_level_name = Project.level_names.menu,
 	camera_unit = "core/appkit/units/camera/camera",
 	camera_index = 1,
 	shading_environment = nil, -- Will override levels that have env set in editor.
@@ -283,6 +283,11 @@ end
 
 -- Optional function called by SimpleProject after world update (we will probably want to split to pre/post appkit calls)
 function Project.update(dt)
+    
+    -- Don't do anything in game related in 'name_input' mode.
+    if (SimpleProject.config.game_state.game_mode <= GameModes.name_input) then
+        return
+    end
     
     GameState.update(SimpleProject, dt)
     

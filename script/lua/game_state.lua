@@ -8,17 +8,20 @@ LANLobbyPort = 8156
 
 GameModes =
 {
-    lobby =0,           -- collecting players (GameState.game_mode)
-    active = 1,         -- actively playingthe game
-    name_input = 2,     -- Waiting for the user to input name
+    name_input = 0,         -- Waiting for the user to input name
+    lobby =1,               -- collecting players (GameState.game_mode)
+    round_explanation = 2,
+    pick_state = 3,
+    reveal = 4,
+    active = 5,         -- actively playingthe game
 }
 
 
 GameState =
 {
-    game_mode = 0,          -- mode the game is currently in
-    update_units = {},       -- units that need update from the network
-    name = ""               -- player's name
+    game_mode = GameModes.name_input,   -- mode the game is currently in
+    update_units = {},                  -- units that need update from the network
+    name = ""                           -- player's name
 }
 
 ObjectTypes =
@@ -209,7 +212,7 @@ function GameState.update(SimpleProject, dt)
             end
 
             -- Everybody goes into the next state of the game now.
-            SimpleProject.config.game_state.game_mode = GameModes.active
+            SimpleProject.config.game_state.game_mode = GameModes.round_explanation
         else
             -- Still waiting for correct number of players
             SimpleProject.print_wait = SimpleProject.print_wait + dt

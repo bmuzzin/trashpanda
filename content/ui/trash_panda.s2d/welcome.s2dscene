@@ -58,7 +58,7 @@
 					"DynamicProperties": {},
 					"Owner": {
 						"@meta": {
-							"@ref": 1448998075
+							"@ref": 3779552525
 						}
 					},
 					"Name": "Animation",
@@ -69,7 +69,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"ChildLayers": [],
@@ -83,7 +83,7 @@
 								"DynamicProperties": {},
 								"Owner": {
 									"@meta": {
-										"@ref": 4030413007
+										"@ref": 798178883
 									}
 								},
 								"Name": "lblGameName",
@@ -140,7 +140,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2736005463
+												"@ref": 2945485159
 											}
 										},
 										"Name": "Animation",
@@ -151,7 +151,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1879601044
+														"@ref": 1202219686
 													}
 												},
 												"ChildLayers": [],
@@ -165,7 +165,7 @@
 													"DynamicProperties": {},
 													"Owner": {
 														"@meta": {
-															"@ref": 3295079786
+															"@ref": 3773431938
 														}
 													},
 													"Name": "label",
@@ -222,7 +222,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 2583874263
+																	"@ref": 1961595491
 																}
 															},
 															"Name": "Text",
@@ -257,7 +257,7 @@
 															"InactiveSelectionTextColor": 4294967295,
 															"InactiveSelectionBackgroundColor": 0,
 															"@meta": {
-																"@id": 1634008986,
+																"@id": 988146163,
 																"@typeid": 3283604
 															}
 														}
@@ -278,7 +278,7 @@
 													"Filters": [],
 													"Visible": true,
 													"@meta": {
-														"@id": 2583874263,
+														"@id": 1961595491,
 														"@typeid": 150545074
 													}
 												},
@@ -290,7 +290,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3295079786
+																"@ref": 3773431938
 															}
 														},
 														"Transform": {
@@ -351,7 +351,7 @@
 														},
 														"HasTween": false,
 														"@meta": {
-															"@id": 3276072510,
+															"@id": 2567726430,
 															"@typeid": 210448581
 														}
 													},
@@ -360,7 +360,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3295079786
+																"@ref": 3773431938
 															}
 														},
 														"Transform": {
@@ -421,13 +421,13 @@
 														},
 														"HasTween": false,
 														"@meta": {
-															"@id": 2423611791,
+															"@id": 1583836762,
 															"@typeid": 210448581
 														}
 													}
 												],
 												"@meta": {
-													"@id": 3295079786,
+													"@id": 3773431938,
 													"@typeid": 199425826
 												}
 											}
@@ -438,7 +438,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1879601044
+														"@ref": 1202219686
 													}
 												},
 												"Frame": 0,
@@ -446,7 +446,7 @@
 												"Trigger": "",
 												"PlayheadCmds": [],
 												"@meta": {
-													"@id": 1073387536,
+													"@id": 4080359168,
 													"@typeid": 184889937
 												}
 											},
@@ -455,7 +455,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1879601044
+														"@ref": 1202219686
 													}
 												},
 												"Frame": 9,
@@ -467,7 +467,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 1661631644
+																"@ref": 397220031
 															}
 														},
 														"PlayheadAction": 2,
@@ -475,13 +475,13 @@
 														"TargetFrameIndex": -1082130432,
 														"TargetFramePath": "",
 														"@meta": {
-															"@id": 996648910,
+															"@id": 3391792383,
 															"@typeid": 81700260
 														}
 													}
 												],
 												"@meta": {
-													"@id": 1661631644,
+													"@id": 397220031,
 													"@typeid": 184889937
 												}
 											},
@@ -490,7 +490,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1879601044
+														"@ref": 1202219686
 													}
 												},
 												"Frame": 10,
@@ -498,7 +498,7 @@
 												"Trigger": "",
 												"PlayheadCmds": [],
 												"@meta": {
-													"@id": 3317170458,
+													"@id": 3372473086,
 													"@typeid": 184889937
 												}
 											},
@@ -507,7 +507,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1879601044
+														"@ref": 1202219686
 													}
 												},
 												"Frame": 19,
@@ -519,7 +519,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3712816018
+																"@ref": 1440930686
 															}
 														},
 														"PlayheadAction": 2,
@@ -527,20 +527,20 @@
 														"TargetFrameIndex": 180315216,
 														"TargetFramePath": "",
 														"@meta": {
-															"@id": 2688424660,
+															"@id": 2683906301,
 															"@typeid": 81700260
 														}
 													}
 												],
 												"@meta": {
-													"@id": 3712816018,
+													"@id": 1440930686,
 													"@typeid": 184889937
 												}
 											}
 										],
 										"CurrentFrame": 0,
 										"@meta": {
-											"@id": 1879601044,
+											"@id": 1202219686,
 											"@typeid": 18887732
 										}
 									},
@@ -549,14 +549,14 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2736005463
+												"@ref": 2945485159
 											}
 										},
 										"Name": "WidgetBase",
 										"Enabled": true,
 										"Script": "LabelWidgets/label_widget.lua",
 										"@meta": {
-											"@id": 2381894012,
+											"@id": 1759617182,
 											"@typeid": 13313492
 										}
 									}
@@ -577,7 +577,7 @@
 								"Filters": [],
 								"Visible": true,
 								"@meta": {
-									"@id": 2736005463,
+									"@id": 2945485159,
 									"@typeid": 150545074
 								}
 							},
@@ -589,7 +589,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 4030413007
+											"@ref": 798178883
 										}
 									},
 									"Transform": {
@@ -650,13 +650,13 @@
 									},
 									"HasTween": false,
 									"@meta": {
-										"@id": 801512984,
+										"@id": 599947094,
 										"@typeid": 210448581
 									}
 								}
 							],
 							"@meta": {
-								"@id": 4030413007,
+								"@id": 798178883,
 								"@typeid": 199425826
 							}
 						},
@@ -665,7 +665,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"ChildLayers": [
@@ -674,7 +674,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -688,7 +688,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2711289179
+												"@ref": 1134003456
 											}
 										},
 										"Name": "Button1",
@@ -745,7 +745,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2029847560
+														"@ref": 3645719210
 													}
 												},
 												"Name": "Animation",
@@ -756,7 +756,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"ChildLayers": [],
@@ -770,7 +770,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 719925792
+																	"@ref": 1469828029
 																}
 															},
 															"Name": "background",
@@ -827,7 +827,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 1140294096
+																			"@ref": 2661829542
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -835,7 +835,7 @@
 																	"Bitmap": "ButtonWidgets/widget_default_button_normal.png",
 																	"ResourcePersistent": true,
 																	"@meta": {
-																		"@id": 2326708633,
+																		"@id": 404243634,
 																		"@typeid": 110556596
 																	}
 																}
@@ -856,7 +856,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 1140294096,
+																"@id": 2661829542,
 																"@typeid": 150545074
 															}
 														},
@@ -868,7 +868,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 719925792
+																		"@ref": 1469828029
 																	}
 																},
 																"Transform": {
@@ -929,7 +929,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2370906079,
+																	"@id": 3892441525,
 																	"@typeid": 210448581
 																}
 															},
@@ -938,7 +938,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 719925792
+																		"@ref": 1469828029
 																	}
 																},
 																"Transform": {
@@ -999,7 +999,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1387016411,
+																	"@id": 2302654010,
 																	"@typeid": 210448581
 																}
 															},
@@ -1008,7 +1008,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 719925792
+																		"@ref": 1469828029
 																	}
 																},
 																"Transform": {
@@ -1069,7 +1069,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 4073612995,
+																	"@id": 1318764342,
 																	"@typeid": 210448581
 																}
 															},
@@ -1078,7 +1078,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 719925792
+																		"@ref": 1469828029
 																	}
 																},
 																"Transform": {
@@ -1139,13 +1139,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3089723327,
+																	"@id": 4271080351,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 719925792,
+															"@id": 1469828029,
 															"@typeid": 199425826
 														}
 													},
@@ -1154,7 +1154,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"ChildLayers": [],
@@ -1168,7 +1168,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 384101219
+																	"@ref": 150113788
 																}
 															},
 															"Name": "label",
@@ -1225,7 +1225,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 4186299304
+																			"@ref": 1072689032
 																		}
 																	},
 																	"Name": "Text",
@@ -1260,7 +1260,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 2877672408,
+																		"@id": 1659795309,
 																		"@typeid": 3283604
 																	}
 																}
@@ -1281,7 +1281,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 4186299304,
+																"@id": 1072689032,
 																"@typeid": 150545074
 															}
 														},
@@ -1293,7 +1293,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 384101219
+																		"@ref": 150113788
 																	}
 																},
 																"Transform": {
@@ -1354,7 +1354,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 763182372,
+																	"@id": 2303301015,
 																	"@typeid": 210448581
 																}
 															},
@@ -1363,7 +1363,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 384101219
+																		"@ref": 150113788
 																	}
 																},
 																"Transform": {
@@ -1424,7 +1424,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 4074260000,
+																	"@id": 3854542898,
 																	"@typeid": 210448581
 																}
 															},
@@ -1433,7 +1433,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 384101219
+																		"@ref": 150113788
 																	}
 																},
 																"Transform": {
@@ -1494,7 +1494,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3090370332,
+																	"@id": 2870653230,
 																	"@typeid": 210448581
 																}
 															},
@@ -1503,7 +1503,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 384101219
+																		"@ref": 150113788
 																	}
 																},
 																"Transform": {
@@ -1564,13 +1564,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1481999620,
+																	"@id": 1886763562,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 384101219,
+															"@id": 150113788,
 															"@typeid": 199425826
 														}
 													}
@@ -1581,7 +1581,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 0,
@@ -1589,7 +1589,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1335795362,
+															"@id": 3708297659,
 															"@typeid": 184889937
 														}
 													},
@@ -1598,7 +1598,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 9,
@@ -1610,7 +1610,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3699220258
+																		"@ref": 1776755259
 																	}
 																},
 																"PlayheadAction": 2,
@@ -1618,13 +1618,13 @@
 																"TargetFrameIndex": 1,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 647228577,
+																	"@id": 3019730874,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3699220258,
+															"@id": 1776755259,
 															"@typeid": 184889937
 														}
 													},
@@ -1633,7 +1633,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 10,
@@ -1641,7 +1641,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 2379506017,
+															"@id": 457041018,
 															"@typeid": 184889937
 														}
 													},
@@ -1650,7 +1650,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 19,
@@ -1662,7 +1662,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2991334176
+																		"@ref": 1068869177
 																	}
 																},
 																"PlayheadAction": 2,
@@ -1670,13 +1670,13 @@
 																"TargetFrameIndex": 393011792,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1690939232,
+																	"@id": 4063441529,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2991334176,
+															"@id": 1068869177,
 															"@typeid": 184889937
 														}
 													},
@@ -1685,7 +1685,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 20,
@@ -1693,7 +1693,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1671619935,
+															"@id": 4044122232,
 															"@typeid": 184889937
 														}
 													},
@@ -1702,7 +1702,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 29,
@@ -1714,7 +1714,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 4035044831
+																		"@ref": 2112579832
 																	}
 																},
 																"PlayheadAction": 2,
@@ -1722,13 +1722,13 @@
 																"TargetFrameIndex": 393349584,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 983053150,
+																	"@id": 3355555447,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 4035044831,
+															"@id": 2112579832,
 															"@typeid": 184889937
 														}
 													},
@@ -1737,7 +1737,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 30,
@@ -1745,7 +1745,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 2715330590,
+															"@id": 792865591,
 															"@typeid": 184889937
 														}
 													},
@@ -1754,7 +1754,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 223764418
+																"@ref": 1957556323
 															}
 														},
 														"Frame": 39,
@@ -1766,7 +1766,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3327158749
+																		"@ref": 1404693750
 																	}
 																},
 																"PlayheadAction": 2,
@@ -1774,20 +1774,20 @@
 																"TargetFrameIndex": 230703440,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2026763805,
+																	"@id": 104298806,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3327158749,
+															"@id": 1404693750,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 223764418,
+													"@id": 1957556323,
 													"@typeid": 18887732
 												}
 											},
@@ -1796,14 +1796,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2029847560
+														"@ref": 3645719210
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "ButtonWidgets/button_widget.lua",
 												"@meta": {
-													"@id": 3645845245,
+													"@id": 1723380246,
 													"@typeid": 13313492
 												}
 											},
@@ -1812,14 +1812,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2029847560
+														"@ref": 3645719210
 													}
 												},
 												"Name": "WidgetHandler",
-												"Enabled": false,
+												"Enabled": true,
 												"Script": "ButtonWidgets/Button1_handler.lua",
 												"@meta": {
-													"@id": 1714302845,
+													"@id": 4086805142,
 													"@typeid": 13313492
 												}
 											}
@@ -1840,7 +1840,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2029847560,
+											"@id": 3645719210,
 											"@typeid": 150545074
 										}
 									},
@@ -1852,7 +1852,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2711289179
+													"@ref": 1134003456
 												}
 											},
 											"Transform": {
@@ -1913,13 +1913,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 498109952,
+												"@id": 2416908402,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2711289179,
+										"@id": 1134003456,
 										"@typeid": 199425826
 									}
 								},
@@ -1928,7 +1928,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -1942,7 +1942,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2375464606
+												"@ref": 1805652602
 											}
 										},
 										"Name": "Text_6",
@@ -1999,7 +1999,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 3997626896
+														"@ref": 3513484379
 													}
 												},
 												"Name": "Text",
@@ -2034,7 +2034,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 2565431886,
+													"@id": 1995619882,
 													"@typeid": 3283604
 												}
 											}
@@ -2055,7 +2055,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 3997626896,
+											"@id": 3513484379,
 											"@typeid": 150545074
 										}
 									},
@@ -2067,7 +2067,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2375464606
+													"@ref": 1805652602
 												}
 											},
 											"Transform": {
@@ -2128,13 +2128,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 933271583,
+												"@id": 449129066,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2375464606,
+										"@id": 1805652602,
 										"@typeid": 199425826
 									}
 								},
@@ -2143,7 +2143,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -2157,7 +2157,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2039640033
+												"@ref": 2141477175
 											}
 										},
 										"Name": "Text_5",
@@ -2214,7 +2214,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2294919980
+														"@ref": 486062368
 													}
 												},
 												"Name": "Text",
@@ -2249,7 +2249,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 2229607313,
+													"@id": 2331444455,
 													"@typeid": 3283604
 												}
 											}
@@ -2270,7 +2270,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2294919980,
+											"@id": 486062368,
 											"@typeid": 150545074
 										}
 									},
@@ -2282,7 +2282,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2039640033
+													"@ref": 2141477175
 												}
 											},
 											"Transform": {
@@ -2343,13 +2343,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3525531963,
+												"@id": 1716674351,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2039640033,
+										"@id": 2141477175,
 										"@typeid": 199425826
 									}
 								},
@@ -2358,7 +2358,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -2372,7 +2372,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1703815460
+												"@ref": 821762934
 											}
 										},
 										"Name": "Text_4_1",
@@ -2429,7 +2429,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 592213064
+														"@ref": 2813250328
 													}
 												},
 												"Name": "Text",
@@ -2464,7 +2464,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 1893782740,
+													"@id": 3315334123,
 													"@typeid": 3283604
 												}
 											}
@@ -2485,7 +2485,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 592213064,
+											"@id": 2813250328,
 											"@typeid": 150545074
 										}
 									},
@@ -2497,7 +2497,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1703815460
+													"@ref": 821762934
 												}
 											},
 											"Transform": {
@@ -2558,13 +2558,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1198344003,
+												"@id": 1698091154,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1703815460,
+										"@id": 821762934,
 										"@typeid": 199425826
 									}
 								},
@@ -2573,7 +2573,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -2587,7 +2587,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1367990887
+												"@ref": 4109256511
 											}
 										},
 										"Name": "Text_3_1",
@@ -2644,7 +2644,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2559992400
+														"@ref": 2794667131
 													}
 												},
 												"Name": "Text",
@@ -2679,7 +2679,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 1557958167,
+													"@id": 3177451433,
 													"@typeid": 3283604
 												}
 											}
@@ -2700,7 +2700,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2559992400,
+											"@id": 2794667131,
 											"@typeid": 150545074
 										}
 									},
@@ -2712,7 +2712,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1367990887
+													"@ref": 4109256511
 												}
 											},
 											"Transform": {
@@ -2773,13 +2773,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3790604383,
+												"@id": 4025279114,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1367990887,
+										"@id": 4109256511,
 										"@typeid": 199425826
 									}
 								},
@@ -2788,7 +2788,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -2802,7 +2802,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 3004946504
+												"@ref": 3323308726
 											}
 										},
 										"Name": "Text_2_1",
@@ -2859,7 +2859,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 138468236
+														"@ref": 1923696864
 													}
 												},
 												"Name": "Text",
@@ -2894,7 +2894,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 1222133594,
+													"@id": 3513276006,
 													"@typeid": 3283604
 												}
 											}
@@ -2915,7 +2915,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 138468236,
+											"@id": 1923696864,
 											"@typeid": 150545074
 										}
 									},
@@ -2927,7 +2927,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 3004946504
+													"@ref": 3323308726
 												}
 											},
 											"Transform": {
@@ -2988,13 +2988,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1369080219,
+												"@id": 3154308847,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 3004946504,
+										"@id": 3323308726,
 										"@typeid": 199425826
 									}
 								},
@@ -3003,7 +3003,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -3017,7 +3017,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 701342595
+												"@ref": 3659133299
 											}
 										},
 										"Name": "Text_1_1",
@@ -3074,7 +3074,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2465009191
+														"@ref": 4250884824
 													}
 												},
 												"Name": "Text",
@@ -3109,7 +3109,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 3194913784,
+													"@id": 3849100579,
 													"@typeid": 3283604
 												}
 											}
@@ -3130,7 +3130,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2465009191,
+											"@id": 4250884824,
 											"@typeid": 150545074
 										}
 									},
@@ -3142,7 +3142,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 701342595
+													"@ref": 3659133299
 												}
 											},
 											"Transform": {
@@ -3203,13 +3203,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3336859555,
+												"@id": 3135725650,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 701342595,
+										"@id": 3659133299,
 										"@typeid": 199425826
 									}
 								},
@@ -3218,7 +3218,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -3232,7 +3232,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1372991741
+												"@ref": 3994957872
 											}
 										},
 										"Name": "Text_1",
@@ -3289,7 +3289,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 137821231
+														"@ref": 4232301627
 													}
 												},
 												"Name": "Text",
@@ -3324,7 +3324,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 3866562930,
+													"@id": 4184925152,
 													"@typeid": 3283604
 												}
 											}
@@ -3345,7 +3345,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 137821231,
+											"@id": 4232301627,
 											"@typeid": 150545074
 										}
 									},
@@ -3357,7 +3357,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1372991741
+													"@ref": 3994957872
 												}
 											},
 											"Transform": {
@@ -3418,13 +3418,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1368433214,
+												"@id": 1167946314,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1372991741,
+										"@id": 3994957872,
 										"@typeid": 199425826
 									}
 								}
@@ -3432,11 +3432,11 @@
 							"Visible": true,
 							"Locked": false,
 							"ParentLayerId": "0",
-							"Expanded": false,
+							"Expanded": true,
 							"Guide": false,
 							"Name": "Round",
 							"@meta": {
-								"@id": 605224313,
+								"@id": 3307627331,
 								"@typeid": 31297042
 							}
 						},
@@ -3445,7 +3445,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"ChildLayers": [
@@ -3454,7 +3454,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -3468,7 +3468,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 3028530555
+												"@ref": 371639722
 											}
 										},
 										"Name": "Text",
@@ -3525,7 +3525,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2730081611
+														"@ref": 2642514112
 													}
 												},
 												"Name": "Text",
@@ -3560,7 +3560,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 243244780,
+													"@id": 225782429,
 													"@typeid": 3283604
 												}
 											}
@@ -3581,7 +3581,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2730081611,
+											"@id": 2642514112,
 											"@typeid": 150545074
 										}
 									},
@@ -3593,7 +3593,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 3028530555
+													"@ref": 371639722
 												}
 											},
 											"Transform": {
@@ -3654,13 +3654,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3960693594,
+												"@id": 3873126095,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 3028530555,
+										"@id": 371639722,
 										"@typeid": 199425826
 									}
 								},
@@ -3669,7 +3669,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -3688,7 +3688,7 @@
 										},
 										"Owner": {
 											"@meta": {
-												"@ref": 2692705982
+												"@ref": 3011068204
 											}
 										},
 										"Name": "txtNameWaiting",
@@ -3745,7 +3745,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2011264363
+														"@ref": 674734776
 													}
 												},
 												"Name": "Text",
@@ -3780,7 +3780,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 2882673262,
+													"@id": 2865210911,
 													"@typeid": 3283604
 												}
 											}
@@ -3801,7 +3801,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2011264363,
+											"@id": 674734776,
 											"@typeid": 150545074
 										}
 									},
@@ -3813,7 +3813,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2692705982
+													"@ref": 3011068204
 												}
 											},
 											"Transform": {
@@ -3874,13 +3874,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1633505634,
+												"@id": 13320430,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2692705982,
+										"@id": 3011068204,
 										"@typeid": 199425826
 									}
 								},
@@ -3889,7 +3889,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -3903,7 +3903,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2356881409
+												"@ref": 2675243631
 											}
 										},
 										"Name": "Text_2",
@@ -3960,7 +3960,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 308557447
+														"@ref": 1109896407
 													}
 												},
 												"Name": "Text",
@@ -3995,7 +3995,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 2546848689,
+													"@id": 873847524,
 													"@typeid": 3283604
 												}
 											}
@@ -4016,7 +4016,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 308557447,
+											"@id": 1109896407,
 											"@typeid": 150545074
 										}
 									},
@@ -4028,7 +4028,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2356881409
+													"@ref": 2675243631
 												}
 											},
 											"Transform": {
@@ -4089,13 +4089,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 914688386,
+												"@id": 278392850,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2356881409,
+										"@id": 2675243631,
 										"@typeid": 199425826
 									}
 								},
@@ -4104,7 +4104,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -4118,7 +4118,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2021056836
+												"@ref": 2003594485
 											}
 										},
 										"Name": "Text_3",
@@ -4175,7 +4175,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2276336783
+														"@ref": 1374968827
 													}
 												},
 												"Name": "Text",
@@ -4210,7 +4210,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 2211024116,
+													"@id": 202198378,
 													"@typeid": 3283604
 												}
 											}
@@ -4231,7 +4231,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2276336783,
+											"@id": 1374968827,
 											"@typeid": 150545074
 										}
 									},
@@ -4243,7 +4243,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2021056836
+													"@ref": 2003594485
 												}
 											},
 											"Transform": {
@@ -4304,13 +4304,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3506948766,
+												"@id": 2605580810,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2021056836,
+										"@id": 2003594485,
 										"@typeid": 199425826
 									}
 								},
@@ -4319,7 +4319,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -4333,7 +4333,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1685232263
+												"@ref": 2235081146
 											}
 										},
 										"Name": "Text_4",
@@ -4390,7 +4390,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 573629867
+														"@ref": 2207352481
 													}
 												},
 												"Name": "Text",
@@ -4425,7 +4425,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 1875199543,
+													"@id": 2425048426,
 													"@typeid": 3283604
 												}
 											}
@@ -4446,7 +4446,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 573629867,
+											"@id": 2207352481,
 											"@typeid": 150545074
 										}
 									},
@@ -4458,7 +4458,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1685232263
+													"@ref": 2235081146
 												}
 											},
 											"Transform": {
@@ -4519,13 +4519,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1804241850,
+												"@id": 3437964464,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1685232263,
+										"@id": 2235081146,
 										"@typeid": 199425826
 									}
 								},
@@ -4534,7 +4534,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -4548,7 +4548,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2780527921
+												"@ref": 2570905719
 											}
 										},
 										"Name": "progress",
@@ -4605,7 +4605,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 743719078
+														"@ref": 239573145
 													}
 												},
 												"Name": "Shape",
@@ -4613,8 +4613,24 @@
 												"SVG": "progress.svg",
 												"Bitmaps": [],
 												"@meta": {
-													"@id": 191313864,
+													"@id": 4159533988,
 													"@typeid": 40850532
+												}
+											},
+											{
+												"Id": "8209671332127619261",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 239573145
+													}
+												},
+												"Name": "Script",
+												"Enabled": true,
+												"Script": "progress_next.lua",
+												"@meta": {
+													"@id": 2914736543,
+													"@typeid": 13313492
 												}
 											}
 										],
@@ -4634,7 +4650,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 743719078,
+											"@id": 239573145,
 											"@typeid": 150545074
 										}
 									},
@@ -4646,7 +4662,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2780527921
+													"@ref": 2570905719
 												}
 											},
 											"Transform": {
@@ -4707,13 +4723,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3772021186,
+												"@id": 1999682963,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2780527921,
+										"@id": 2570905719,
 										"@typeid": 199425826
 									}
 								}
@@ -4725,7 +4741,7 @@
 							"Guide": false,
 							"Name": "Waiting",
 							"@meta": {
-								"@id": 2968649209,
+								"@id": 1339847995,
 								"@typeid": 31297042
 							}
 						},
@@ -4734,7 +4750,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"ChildLayers": [
@@ -4743,7 +4759,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -4757,7 +4773,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 141099439
+												"@ref": 603126383
 											}
 										},
 										"Name": "lblWelcome",
@@ -4814,7 +4830,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2711498414
+														"@ref": 3096258940
 													}
 												},
 												"Name": "Text",
@@ -4849,7 +4865,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 331066719,
+													"@id": 793093663,
 													"@typeid": 3283604
 												}
 											}
@@ -4870,7 +4886,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2711498414,
+											"@id": 3096258940,
 											"@typeid": 150545074
 										}
 									},
@@ -4882,7 +4898,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 141099439
+													"@ref": 603126383
 												}
 											},
 											"Transform": {
@@ -4943,13 +4959,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3942110397,
+												"@id": 31903627,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 141099439,
+										"@id": 603126383,
 										"@typeid": 199425826
 									}
 								},
@@ -4958,7 +4974,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -4972,7 +4988,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 3788001640
+												"@ref": 938950956
 											}
 										},
 										"Name": "txtName",
@@ -5029,7 +5045,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1444600134
+														"@ref": 1506471425
 													}
 												},
 												"Name": "Animation",
@@ -5040,7 +5056,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"ChildLayers": [],
@@ -5054,7 +5070,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 4123826213
+																	"@ref": 1922840624
 																}
 															},
 															"Name": "background_selected",
@@ -5111,7 +5127,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 4131196718
+																			"@ref": 522581757
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -5119,7 +5135,7 @@
 																	"Bitmap": "InputWidgets/input_selected.png",
 																	"ResourcePersistent": true,
 																	"@meta": {
-																		"@id": 2556681883,
+																		"@id": 785857071,
 																		"@typeid": 110556596
 																	}
 																}
@@ -5140,7 +5156,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 4131196718,
+																"@id": 522581757,
 																"@typeid": 150545074
 															}
 														},
@@ -5152,7 +5168,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 4123826213
+																		"@ref": 1922840624
 																	}
 																},
 																"Transform": {
@@ -5213,13 +5229,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1066841405,
+																	"@id": 1753193740,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 4123826213,
+															"@id": 1922840624,
 															"@typeid": 199425826
 														}
 													},
@@ -5228,7 +5244,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"ChildLayers": [],
@@ -5242,7 +5258,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 2804111972
+																	"@ref": 3242554865
 																}
 															},
 															"Name": "background_normal",
@@ -5299,7 +5315,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 2163417382
+																			"@ref": 2926169729
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -5307,7 +5323,7 @@
 																	"Bitmap": "InputWidgets/input_normal.png",
 																	"ResourcePersistent": true,
 																	"@meta": {
-																		"@id": 3168510042,
+																		"@id": 1397685230,
 																		"@typeid": 110556596
 																	}
 																}
@@ -5328,7 +5344,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 2163417382,
+																"@id": 2926169729,
 																"@typeid": 150545074
 															}
 														},
@@ -5340,7 +5356,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2804111972
+																		"@ref": 3242554865
 																	}
 																},
 																"Transform": {
@@ -5401,7 +5417,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2769548321,
+																	"@id": 4156781712,
 																	"@typeid": 210448581
 																}
 															},
@@ -5410,7 +5426,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2804111972
+																		"@ref": 3242554865
 																	}
 																},
 																"Transform": {
@@ -5471,13 +5487,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1785658653,
+																	"@id": 3172892044,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2804111972,
+															"@id": 3242554865,
 															"@typeid": 199425826
 														}
 													},
@@ -5486,7 +5502,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"ChildLayers": [],
@@ -5500,7 +5516,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 1484397731
+																	"@ref": 267301810
 																}
 															},
 															"Name": "label",
@@ -5557,7 +5573,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 2882234630
+																			"@ref": 3644986977
 																		}
 																	},
 																	"Name": "Text",
@@ -5592,7 +5608,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 4278238691,
 																	"@meta": {
-																		"@id": 1002715865,
+																		"@id": 121444517,
 																		"@typeid": 3283604
 																	}
 																}
@@ -5613,7 +5629,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 2882234630,
+																"@id": 3644986977,
 																"@typeid": 150545074
 															}
 														},
@@ -5625,7 +5641,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1484397731
+																		"@ref": 267301810
 																	}
 																},
 																"Transform": {
@@ -5686,7 +5702,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3488365569,
+																	"@id": 580631664,
 																	"@typeid": 210448581
 																}
 															},
@@ -5695,7 +5711,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1484397731
+																		"@ref": 267301810
 																	}
 																},
 																"Transform": {
@@ -5756,13 +5772,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2504475901,
+																	"@id": 3891709292,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1484397731,
+															"@id": 267301810,
 															"@typeid": 199425826
 														}
 													}
@@ -5773,7 +5789,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"Frame": 0,
@@ -5781,7 +5797,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3929193508,
+															"@id": 2158368696,
 															"@typeid": 184889937
 														}
 													},
@@ -5790,7 +5806,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"Frame": 9,
@@ -5802,7 +5818,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 246054371
+																		"@ref": 2770196855
 																	}
 																},
 																"PlayheadAction": 2,
@@ -5810,13 +5826,13 @@
 																"TargetFrameIndex": 373165208,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 3240626723,
+																	"@id": 1469801911,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 246054371,
+															"@id": 2770196855,
 															"@typeid": 184889937
 														}
 													},
@@ -5825,7 +5841,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"Frame": 10,
@@ -5833,7 +5849,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3221307426,
+															"@id": 1450482614,
 															"@typeid": 184889937
 														}
 													},
@@ -5842,7 +5858,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"Frame": 19,
@@ -5854,7 +5870,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1289765026
+																		"@ref": 3813907510
 																	}
 																},
 																"PlayheadAction": 2,
@@ -5862,13 +5878,13 @@
 																"TargetFrameIndex": 192365904,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2532740641,
+																	"@id": 761915829,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1289765026,
+															"@id": 3813907510,
 															"@typeid": 184889937
 														}
 													},
@@ -5877,7 +5893,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"Frame": 20,
@@ -5885,7 +5901,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 558294893,
+															"@id": 2494193269,
 															"@typeid": 184889937
 														}
 													},
@@ -5894,7 +5910,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 316587211
+																"@ref": 2746393491
 															}
 														},
 														"Frame": 29,
@@ -5906,7 +5922,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2319685030
+																		"@ref": 3106021428
 																	}
 																},
 																"PlayheadAction": 2,
@@ -5914,20 +5930,20 @@
 																"TargetFrameIndex": 286933920,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1019290086,
+																	"@id": 1805626484,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2319685030,
+															"@id": 3106021428,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 316587211,
+													"@id": 2746393491,
 													"@typeid": 18887732
 												}
 											},
@@ -5936,14 +5952,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1444600134
+														"@ref": 1506471425
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "InputWidgets/input_widget.lua",
 												"@meta": {
-													"@id": 2638371526,
+													"@id": 3424707924,
 													"@typeid": 13313492
 												}
 											},
@@ -5952,14 +5968,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1444600134
+														"@ref": 1506471425
 													}
 												},
 												"Name": "WidgetHandler",
 												"Enabled": true,
 												"Script": "InputWidgets/Input_handler.lua",
 												"@meta": {
-													"@id": 706829126,
+													"@id": 1493165524,
 													"@typeid": 13313492
 												}
 											}
@@ -5980,7 +5996,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 1444600134,
+											"@id": 1506471425,
 											"@typeid": 150545074
 										}
 									},
@@ -5992,7 +6008,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 3788001640
+													"@ref": 938950956
 												}
 											},
 											"Transform": {
@@ -6053,13 +6069,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1520586233,
+												"@id": 144823028,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 3788001640,
+										"@id": 938950956,
 										"@typeid": 199425826
 									}
 								},
@@ -6068,7 +6084,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -6082,7 +6098,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 3116352494
+												"@ref": 2906730292
 											}
 										},
 										"Name": "btnName",
@@ -6139,7 +6155,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 614930709
+														"@ref": 1241399005
 													}
 												},
 												"Name": "Animation",
@@ -6150,7 +6166,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"ChildLayers": [],
@@ -6164,7 +6180,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 3452177067
+																	"@ref": 1251191478
 																}
 															},
 															"Name": "background",
@@ -6221,7 +6237,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 3926008337
+																			"@ref": 257509337
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -6229,7 +6245,7 @@
 																	"Bitmap": "ButtonWidgets/widget_default_button_normal.png",
 																	"ResourcePersistent": true,
 																	"@meta": {
-																		"@id": 841322082,
+																		"@id": 2069334376,
 																		"@typeid": 110556596
 																	}
 																}
@@ -6250,7 +6266,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 3926008337,
+																"@id": 257509337,
 																"@typeid": 150545074
 															}
 														},
@@ -6262,7 +6278,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3452177067
+																		"@ref": 1251191478
 																	}
 																},
 																"Transform": {
@@ -6323,7 +6339,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 237171980,
+																	"@id": 3437317459,
 																	"@typeid": 210448581
 																}
 															},
@@ -6332,7 +6348,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3452177067
+																		"@ref": 1251191478
 																	}
 																},
 																"Transform": {
@@ -6393,7 +6409,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2564359940,
+																	"@id": 2453427791,
 																	"@typeid": 210448581
 																}
 															},
@@ -6402,7 +6418,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3452177067
+																		"@ref": 1251191478
 																	}
 																},
 																"Transform": {
@@ -6463,7 +6479,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 4189246625,
+																	"@id": 1469538123,
 																	"@typeid": 210448581
 																}
 															},
@@ -6472,7 +6488,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3452177067
+																		"@ref": 1251191478
 																	}
 																},
 																"Transform": {
@@ -6533,13 +6549,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3205356957,
+																	"@id": 1147295893,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3452177067,
+															"@id": 1251191478,
 															"@typeid": 199425826
 														}
 													},
@@ -6548,7 +6564,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"ChildLayers": [],
@@ -6562,7 +6578,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 2132462826
+																	"@ref": 915366905
 																}
 															},
 															"Name": "label",
@@ -6619,7 +6635,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 6965638
+																			"@ref": 2243871870
 																		}
 																	},
 																	"Name": "Text",
@@ -6654,7 +6670,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 3642144347,
+																		"@id": 3644778604,
 																		"@typeid": 3283604
 																	}
 																}
@@ -6675,7 +6691,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 6965638,
+																"@id": 2243871870,
 																"@typeid": 150545074
 															}
 														},
@@ -6687,7 +6703,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2132462826
+																		"@ref": 915366905
 																	}
 																},
 																"Transform": {
@@ -6748,7 +6764,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 613096577,
+																	"@id": 3474483853,
 																	"@typeid": 210448581
 																}
 															},
@@ -6757,7 +6773,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2132462826
+																		"@ref": 915366905
 																	}
 																},
 																"Transform": {
@@ -6818,7 +6834,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3924174205,
+																	"@id": 1866113141,
 																	"@typeid": 210448581
 																}
 															},
@@ -6827,7 +6843,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2132462826
+																		"@ref": 915366905
 																	}
 																},
 																"Transform": {
@@ -6888,7 +6904,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2940284537,
+																	"@id": 882223473,
 																	"@typeid": 210448581
 																}
 															},
@@ -6897,7 +6913,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2132462826
+																		"@ref": 915366905
 																	}
 																},
 																"Transform": {
@@ -6958,13 +6974,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1331913825,
+																	"@id": 4193301101,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2132462826,
+															"@id": 915366905,
 															"@typeid": 199425826
 														}
 													}
@@ -6975,7 +6991,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 0,
@@ -6983,7 +6999,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1602005548,
+															"@id": 2830017842,
 															"@typeid": 184889937
 														}
 													},
@@ -6992,7 +7008,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 9,
@@ -7004,7 +7020,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2213833707
+																		"@ref": 3441846001
 																	}
 																},
 																"PlayheadAction": 2,
@@ -7012,13 +7028,13 @@
 																"TargetFrameIndex": 1,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 913438763,
+																	"@id": 2141451057,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2213833707,
+															"@id": 3441846001,
 															"@typeid": 184889937
 														}
 													},
@@ -7027,7 +7043,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 10,
@@ -7035,7 +7051,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 894119466,
+															"@id": 2122131760,
 															"@typeid": 184889937
 														}
 													},
@@ -7044,7 +7060,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 19,
@@ -7056,7 +7072,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3257544362
+																		"@ref": 190589360
 																	}
 																},
 																"PlayheadAction": 2,
@@ -7064,13 +7080,13 @@
 																"TargetFrameIndex": 230690128,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 205552681,
+																	"@id": 1433564975,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3257544362,
+															"@id": 190589360,
 															"@typeid": 184889937
 														}
 													},
@@ -7079,7 +7095,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 20,
@@ -7087,7 +7103,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1937830121,
+															"@id": 3165842415,
 															"@typeid": 184889937
 														}
 													},
@@ -7096,7 +7112,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 29,
@@ -7108,7 +7124,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2549658280
+																		"@ref": 3777670574
 																	}
 																},
 																"PlayheadAction": 2,
@@ -7116,13 +7132,13 @@
 																"TargetFrameIndex": 0,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1249263336,
+																	"@id": 2477275630,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2549658280,
+															"@id": 3777670574,
 															"@typeid": 184889937
 														}
 													},
@@ -7131,7 +7147,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 30,
@@ -7139,7 +7155,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1229944039,
+															"@id": 2457956333,
 															"@typeid": 184889937
 														}
 													},
@@ -7148,7 +7164,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3939905361
+																"@ref": 3394458586
 															}
 														},
 														"Frame": 39,
@@ -7160,7 +7176,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3593368935
+																		"@ref": 526413933
 																	}
 																},
 																"PlayheadAction": 2,
@@ -7168,20 +7184,20 @@
 																"TargetFrameIndex": 7,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 541377254,
+																	"@id": 1769389548,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3593368935,
+															"@id": 526413933,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 3939905361,
+													"@id": 3394458586,
 													"@typeid": 18887732
 												}
 											},
@@ -7190,14 +7206,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 614930709
+														"@ref": 1241399005
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "ButtonWidgets/button_widget.lua",
 												"@meta": {
-													"@id": 3912055431,
+													"@id": 845100429,
 													"@typeid": 13313492
 												}
 											},
@@ -7206,14 +7222,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 614930709
+														"@ref": 1241399005
 													}
 												},
 												"Name": "WidgetHandler",
 												"Enabled": true,
 												"Script": "ButtonWidgets/Button_handler.lua",
 												"@meta": {
-													"@id": 228916294,
+													"@id": 1456928588,
 													"@typeid": 13313492
 												}
 											}
@@ -7234,7 +7250,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 614930709,
+											"@id": 1241399005,
 											"@typeid": 150545074
 										}
 									},
@@ -7246,7 +7262,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 3116352494
+													"@ref": 2906730292
 												}
 											},
 											"Transform": {
@@ -7307,13 +7323,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 348024157,
+												"@id": 2584930389,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 3116352494,
+										"@id": 2906730292,
 										"@typeid": 199425826
 									}
 								}
@@ -7325,7 +7341,7 @@
 							"Guide": false,
 							"Name": "Welcome",
 							"@meta": {
-								"@id": 2689128040,
+								"@id": 3689240768,
 								"@typeid": 31297042
 							}
 						},
@@ -7334,7 +7350,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"ChildLayers": [
@@ -7343,7 +7359,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -7357,7 +7373,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 3665378343
+												"@ref": 4126460470
 											}
 										},
 										"Name": "txtPickCard",
@@ -7414,7 +7430,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 412951951
+														"@ref": 3681506366
 													}
 												},
 												"Name": "Text",
@@ -7449,7 +7465,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 3173360357,
+													"@id": 21460454,
 													"@typeid": 3283604
 												}
 											}
@@ -7470,7 +7486,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 412951951,
+											"@id": 3681506366,
 											"@typeid": 150545074
 										}
 									},
@@ -7482,7 +7498,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 3665378343
+													"@ref": 4126460470
 												}
 											},
 											"Transform": {
@@ -7543,13 +7559,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1732531196,
+												"@id": 617151053,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 3665378343,
+										"@id": 4126460470,
 										"@typeid": 199425826
 									}
 								},
@@ -7558,7 +7574,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -7572,7 +7588,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 8140022
+												"@ref": 167317747
 											}
 										},
 										"Name": "btnCard1",
@@ -7629,7 +7645,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 3684795961
+														"@ref": 3928642594
 													}
 												},
 												"Name": "Animation",
@@ -7640,7 +7656,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"ChildLayers": [],
@@ -7654,7 +7670,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 656205117
+																	"@ref": 503142320
 																}
 															},
 															"Name": "draw-card",
@@ -7711,7 +7727,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 2700906293
+																			"@ref": 2944752926
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -7719,7 +7735,7 @@
 																	"Bitmap": "draw-card.png",
 																	"ResourcePersistent": false,
 																	"@meta": {
-																		"@id": 3600197647,
+																		"@id": 101555040,
 																		"@typeid": 110556596
 																	}
 																}
@@ -7740,7 +7756,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 2700906293,
+																"@id": 2944752926,
 																"@typeid": 150545074
 															}
 														},
@@ -7752,7 +7768,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 656205117
+																		"@ref": 503142320
 																	}
 																},
 																"Transform": {
@@ -7813,13 +7829,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3931518276,
+																	"@id": 4175364909,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 656205117,
+															"@id": 503142320,
 															"@typeid": 199425826
 														}
 													}
@@ -7830,7 +7846,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 0,
@@ -7838,7 +7854,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 341917403,
+															"@id": 1681969275,
 															"@typeid": 184889937
 														}
 													},
@@ -7847,7 +7863,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 9,
@@ -7859,7 +7875,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2981345885
+																		"@ref": 4045394171
 																	}
 																},
 																"PlayheadAction": 2,
@@ -7867,13 +7883,13 @@
 																"TargetFrameIndex": 0,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1644714005,
+																	"@id": 993402490,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2981345885,
+															"@id": 4045394171,
 															"@typeid": 184889937
 														}
 													},
@@ -7882,7 +7898,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 10,
@@ -7890,7 +7906,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 4025056540,
+															"@id": 2725679930,
 															"@typeid": 184889937
 														}
 													},
@@ -7899,7 +7915,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 19,
@@ -7911,7 +7927,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1349391122
+																		"@ref": 3337508089
 																	}
 																},
 																"PlayheadAction": 2,
@@ -7919,13 +7935,13 @@
 																"TargetFrameIndex": 393457232,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1308889432,
+																	"@id": 2037113145,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1349391122,
+															"@id": 3337508089,
 															"@typeid": 184889937
 														}
 													},
@@ -7934,7 +7950,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 20,
@@ -7942,7 +7958,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3004929936,
+															"@id": 2017793848,
 															"@typeid": 184889937
 														}
 													},
@@ -7951,7 +7967,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 29,
@@ -7963,7 +7979,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 29676881
+																		"@ref": 86251448
 																	}
 																},
 																"PlayheadAction": 2,
@@ -7971,13 +7987,13 @@
 																"TargetFrameIndex": 402996944,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 3336489755,
+																	"@id": 1329227063,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 29676881,
+															"@id": 86251448,
 															"@typeid": 184889937
 														}
 													},
@@ -7986,7 +8002,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 30,
@@ -7994,7 +8010,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1049803485,
+															"@id": 3061504503,
 															"@typeid": 184889937
 														}
 													},
@@ -8003,7 +8019,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3135296798
+																"@ref": 990870614
 															}
 														},
 														"Frame": 39,
@@ -8015,7 +8031,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1685215695
+																		"@ref": 3673332662
 																	}
 																},
 																"PlayheadAction": 2,
@@ -8023,20 +8039,20 @@
 																"TargetFrameIndex": 41,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 3024249233,
+																	"@id": 2372937718,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1685215695,
+															"@id": 3673332662,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 3135296798,
+													"@id": 990870614,
 													"@typeid": 18887732
 												}
 											},
@@ -8045,14 +8061,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 3684795961
+														"@ref": 3928642594
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "ButtonWidgets/button_widget.lua",
 												"@meta": {
-													"@id": 1392074032,
+													"@id": 3992019158,
 													"@typeid": 13313492
 												}
 											},
@@ -8061,14 +8077,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 3684795961
+														"@ref": 3928642594
 													}
 												},
 												"Name": "WidgetHandler",
 												"Enabled": false,
 												"Script": "ButtonWidgets/Button5_handler.lua",
 												"@meta": {
-													"@id": 1095641864,
+													"@id": 2060476758,
 													"@typeid": 13313492
 												}
 											}
@@ -8089,7 +8105,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 3684795961,
+											"@id": 3928642594,
 											"@typeid": 150545074
 										}
 									},
@@ -8101,7 +8117,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 8140022
+													"@ref": 167317747
 												}
 											},
 											"Transform": {
@@ -8162,13 +8178,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3018012673,
+												"@id": 4004628693,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 8140022,
+										"@id": 167317747,
 										"@typeid": 199425826
 									}
 								},
@@ -8177,7 +8193,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -8191,7 +8207,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 690125288
+												"@ref": 3478395375
 											}
 										},
 										"Name": "btnCard2",
@@ -8248,7 +8264,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1263271797
+														"@ref": 806237374
 													}
 												},
 												"Name": "Animation",
@@ -8259,7 +8275,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"ChildLayers": [],
@@ -8273,7 +8289,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 2609535704
+																	"@ref": 3814219948
 																}
 															},
 															"Name": "draw-card",
@@ -8330,7 +8346,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 279382129
+																			"@ref": 4117315002
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -8338,7 +8354,7 @@
 																	"Bitmap": "draw-card.png",
 																	"ResourcePersistent": false,
 																	"@meta": {
-																		"@id": 3027761893,
+																		"@id": 2636645610,
 																		"@typeid": 110556596
 																	}
 																}
@@ -8359,7 +8375,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 279382129,
+																"@id": 4117315002,
 																"@typeid": 150545074
 															}
 														},
@@ -8371,7 +8387,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2609535704
+																		"@ref": 3814219948
 																	}
 																},
 																"Transform": {
@@ -8432,13 +8448,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 16610025,
+																	"@id": 428478645,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2609535704,
+															"@id": 3814219948,
 															"@typeid": 199425826
 														}
 													}
@@ -8449,7 +8465,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 0,
@@ -8457,7 +8473,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3416383850,
+															"@id": 3397329076,
 															"@typeid": 184889937
 														}
 													},
@@ -8466,7 +8482,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 9,
@@ -8478,7 +8494,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1089195890
+																		"@ref": 4009157235
 																	}
 																},
 																"PlayheadAction": 2,
@@ -8486,13 +8502,13 @@
 																"TargetFrameIndex": 0,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 796274665,
+																	"@id": 2708762291,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1089195890,
+															"@id": 4009157235,
 															"@typeid": 184889937
 														}
 													},
@@ -8501,7 +8517,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 10,
@@ -8509,7 +8525,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 2744734704,
+															"@id": 2689442994,
 															"@typeid": 184889937
 														}
 													},
@@ -8518,7 +8534,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 19,
@@ -8530,7 +8546,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 441130795
+																		"@ref": 757900594
 																	}
 																},
 																"PlayheadAction": 2,
@@ -8538,13 +8554,13 @@
 																"TargetFrameIndex": 393457232,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1132099238,
+																	"@id": 2000876209,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 441130795,
+															"@id": 757900594,
 															"@typeid": 184889937
 														}
 													},
@@ -8553,7 +8569,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 20,
@@ -8561,7 +8577,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 477367731,
+															"@id": 3733153649,
 															"@typeid": 184889937
 														}
 													},
@@ -8570,7 +8586,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 29,
@@ -8582,7 +8598,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3452620786
+																		"@ref": 50014512
 																	}
 																},
 																"PlayheadAction": 2,
@@ -8590,13 +8606,13 @@
 																"TargetFrameIndex": 402996944,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2115988906,
+																	"@id": 3044586864,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3452620786,
+															"@id": 50014512,
 															"@typeid": 184889937
 														}
 													},
@@ -8605,7 +8621,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 30,
@@ -8613,7 +8629,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 4124269932,
+															"@id": 3025267567,
 															"@typeid": 184889937
 														}
 													},
@@ -8622,7 +8638,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 831692889
+																"@ref": 6980946
 															}
 														},
 														"Frame": 39,
@@ -8634,7 +8650,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 105306222
+																		"@ref": 1093725167
 																	}
 																},
 																"PlayheadAction": 2,
@@ -8642,20 +8658,20 @@
 																"TargetFrameIndex": 41,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2634728876,
+																	"@id": 2336700782,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 105306222,
+															"@id": 1093725167,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 831692889,
+													"@id": 6980946,
 													"@typeid": 18887732
 												}
 											},
@@ -8664,14 +8680,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1263271797
+														"@ref": 806237374
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "ButtonWidgets/button_widget.lua",
 												"@meta": {
-													"@id": 1650618770,
+													"@id": 1412411663,
 													"@typeid": 13313492
 												}
 											},
@@ -8680,14 +8696,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1263271797
+														"@ref": 806237374
 													}
 												},
 												"Name": "WidgetHandler",
 												"Enabled": false,
 												"Script": "ButtonWidgets/Button5_handler.lua",
 												"@meta": {
-													"@id": 294667593,
+													"@id": 2024239822,
 													"@typeid": 13313492
 												}
 											}
@@ -8708,7 +8724,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 1263271797,
+											"@id": 806237374,
 											"@typeid": 150545074
 										}
 									},
@@ -8720,7 +8736,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 690125288
+													"@ref": 3478395375
 												}
 											},
 											"Transform": {
@@ -8781,13 +8797,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 2171641550,
+												"@id": 3739556273,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 690125288,
+										"@id": 3478395375,
 										"@typeid": 199425826
 									}
 								},
@@ -8796,7 +8812,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -8810,7 +8826,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1313405514
+												"@ref": 2158681134
 											}
 										},
 										"Name": "btnCard3",
@@ -8867,7 +8883,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 129296334
+														"@ref": 541164954
 													}
 												},
 												"Name": "Animation",
@@ -8878,7 +8894,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"ChildLayers": [],
@@ -8892,7 +8908,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 3617009423
+																	"@ref": 2806746229
 																}
 															},
 															"Name": "draw-card",
@@ -8949,7 +8965,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 3099548535
+																			"@ref": 2091718851
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -8957,7 +8973,7 @@
 																	"Bitmap": "draw-card.png",
 																	"ResourcePersistent": false,
 																	"@meta": {
-																		"@id": 3234261341,
+																		"@id": 57038115,
 																		"@typeid": 110556596
 																	}
 																}
@@ -8978,7 +8994,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 3099548535,
+																"@id": 2091718851,
 																"@typeid": 150545074
 															}
 														},
@@ -8990,7 +9006,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3617009423
+																		"@ref": 2806746229
 																	}
 																},
 																"Transform": {
@@ -9051,13 +9067,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 35193222,
+																	"@id": 3322330834,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3617009423,
+															"@id": 2806746229,
 															"@typeid": 199425826
 														}
 													}
@@ -9068,7 +9084,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 0,
@@ -9076,7 +9092,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 2615409579,
+															"@id": 3361092140,
 															"@typeid": 184889937
 														}
 													},
@@ -9085,7 +9101,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 9,
@@ -9097,7 +9113,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 35802084
+																		"@ref": 3403259388
 																	}
 																},
 																"PlayheadAction": 2,
@@ -9105,13 +9121,13 @@
 																"TargetFrameIndex": 0,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2970553449,
+																	"@id": 2102864444,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 35802084,
+															"@id": 3403259388,
 															"@typeid": 184889937
 														}
 													},
@@ -9120,7 +9136,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 10,
@@ -9128,7 +9144,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3323295661,
+															"@id": 2083545147,
 															"@typeid": 184889937
 														}
 													},
@@ -9137,7 +9153,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 19,
@@ -9149,7 +9165,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3659120234
+																		"@ref": 152002747
 																	}
 																},
 																"PlayheadAction": 2,
@@ -9157,13 +9173,13 @@
 																"TargetFrameIndex": 393457232,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 607128553,
+																	"@id": 1394978362,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3659120234,
+															"@id": 152002747,
 															"@typeid": 184889937
 														}
 													},
@@ -9172,7 +9188,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 20,
@@ -9180,7 +9196,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 959870765,
+															"@id": 3127255802,
 															"@typeid": 184889937
 														}
 													},
@@ -9189,7 +9205,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 29,
@@ -9201,7 +9217,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3935123820
+																		"@ref": 3739083961
 																	}
 																},
 																"PlayheadAction": 2,
@@ -9209,13 +9225,13 @@
 																"TargetFrameIndex": 402996944,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1255193648,
+																	"@id": 2438689017,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3935123820,
+															"@id": 3739083961,
 															"@typeid": 184889937
 														}
 													},
@@ -9224,7 +9240,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 30,
@@ -9232,7 +9248,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3599299247,
+															"@id": 2419369720,
 															"@typeid": 184889937
 														}
 													},
@@ -9241,7 +9257,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3768913144
+																"@ref": 2310584855
 															}
 														},
 														"Frame": 39,
@@ -9253,7 +9269,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 246339148
+																		"@ref": 487827320
 																	}
 																},
 																"PlayheadAction": 2,
@@ -9261,20 +9277,20 @@
 																"TargetFrameIndex": 41,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1801555285,
+																	"@id": 1730802935,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 246339148,
+															"@id": 487827320,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 3768913144,
+													"@id": 2310584855,
 													"@typeid": 18887732
 												}
 											},
@@ -9283,14 +9299,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 129296334
+														"@ref": 541164954
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "ButtonWidgets/button_widget.lua",
 												"@meta": {
-													"@id": 3480457712,
+													"@id": 806513816,
 													"@typeid": 13313492
 												}
 											},
@@ -9299,14 +9315,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 129296334
+														"@ref": 541164954
 													}
 												},
 												"Name": "WidgetHandler",
 												"Enabled": false,
 												"Script": "ButtonWidgets/Button5_handler.lua",
 												"@meta": {
-													"@id": 3816282285,
+													"@id": 1418341975,
 													"@typeid": 13313492
 												}
 											}
@@ -9327,7 +9343,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 129296334,
+											"@id": 541164954,
 											"@typeid": 150545074
 										}
 									},
@@ -9339,7 +9355,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1313405514
+													"@ref": 2158681134
 												}
 											},
 											"Transform": {
@@ -9400,13 +9416,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1992658257,
+												"@id": 2338441166,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1313405514,
+										"@id": 2158681134,
 										"@typeid": 199425826
 									}
 								}
@@ -9418,7 +9434,7 @@
 							"Guide": false,
 							"Name": "Pick",
 							"@meta": {
-								"@id": 3758340000,
+								"@id": 461568178,
 								"@typeid": 31297042
 							}
 						},
@@ -9427,7 +9443,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"ChildLayers": [
@@ -9436,7 +9452,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -9450,7 +9466,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2436886892
+												"@ref": 1151207415
 											}
 										},
 										"Name": "Text_7",
@@ -9507,7 +9523,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2485403611
+														"@ref": 3795072772
 													}
 												},
 												"Name": "Text",
@@ -9542,7 +9558,7 @@
 												"InactiveSelectionTextColor": 4294967295,
 												"InactiveSelectionBackgroundColor": 0,
 												"@meta": {
-													"@id": 635490785,
+													"@id": 1005350122,
 													"@typeid": 3283604
 												}
 											}
@@ -9563,7 +9579,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2485403611,
+											"@id": 3795072772,
 											"@typeid": 150545074
 										}
 									},
@@ -9575,7 +9591,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2436886892
+													"@ref": 1151207415
 												}
 											},
 											"Transform": {
@@ -9636,13 +9652,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 333297588,
+												"@id": 730717459,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2436886892,
+										"@id": 1151207415,
 										"@typeid": 199425826
 									}
 								},
@@ -9651,7 +9667,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -9665,7 +9681,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 3108536038
+												"@ref": 3790635897
 											}
 										},
 										"Name": "giraffe_card",
@@ -9722,7 +9738,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 4115665179
+														"@ref": 1827293436
 													}
 												},
 												"Name": "Bitmap",
@@ -9730,7 +9746,7 @@
 												"Bitmap": "images/giraffe_card.png",
 												"ResourcePersistent": false,
 												"@meta": {
-													"@id": 3035058248,
+													"@id": 62968427,
 													"@typeid": 110556596
 												}
 											}
@@ -9751,7 +9767,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 4115665179,
+											"@id": 1827293436,
 											"@typeid": 150545074
 										}
 									},
@@ -9763,7 +9779,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 3108536038
+													"@ref": 3790635897
 												}
 											},
 											"Transform": {
@@ -9824,13 +9840,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3960437593,
+												"@id": 3871058871,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 3108536038,
+										"@id": 3790635897,
 										"@typeid": 199425826
 									}
 								},
@@ -9839,7 +9855,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -9853,7 +9869,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1452997224
+												"@ref": 1784269948
 											}
 										},
 										"Name": "Button6",
@@ -9910,7 +9926,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2507294467
+														"@ref": 672667552
 													}
 												},
 												"Name": "Animation",
@@ -9921,7 +9937,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"ChildLayers": [],
@@ -9935,7 +9951,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 1276737438
+																	"@ref": 2120094521
 																}
 															},
 															"Name": "background",
@@ -9992,7 +10008,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 1523404799
+																			"@ref": 3983745180
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -10000,7 +10016,7 @@
 																	"Bitmap": "ButtonWidgets/widget_default_button_normal.png",
 																	"ResourcePersistent": true,
 																	"@meta": {
-																		"@id": 59805193,
+																		"@id": 2426393323,
 																		"@typeid": 110556596
 																	}
 																}
@@ -10021,7 +10037,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 1523404799,
+																"@id": 3983745180,
 																"@typeid": 150545074
 															}
 														},
@@ -10033,7 +10049,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1276737438
+																		"@ref": 2120094521
 																	}
 																},
 																"Transform": {
@@ -10094,7 +10110,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2754016782,
+																	"@id": 2868586006,
 																	"@typeid": 210448581
 																}
 															},
@@ -10103,7 +10119,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1276737438
+																		"@ref": 2120094521
 																	}
 																},
 																"Transform": {
@@ -10164,7 +10180,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 125237013,
+																	"@id": 1884696338,
 																	"@typeid": 210448581
 																}
 															},
@@ -10173,7 +10189,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1276737438
+																		"@ref": 2120094521
 																	}
 																},
 																"Transform": {
@@ -10234,7 +10250,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3436314641,
+																	"@id": 900806670,
 																	"@typeid": 210448581
 																}
 															},
@@ -10243,7 +10259,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1276737438
+																		"@ref": 2120094521
 																	}
 																},
 																"Transform": {
@@ -10304,13 +10320,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2452424973,
+																	"@id": 294908823,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1276737438,
+															"@id": 2120094521,
 															"@typeid": 199425826
 														}
 													},
@@ -10319,7 +10335,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"ChildLayers": [],
@@ -10333,7 +10349,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 1788821797
+																	"@ref": 800380280
 																}
 															},
 															"Name": "label",
@@ -10390,7 +10406,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 1069659971
+																			"@ref": 1391484800
 																		}
 																	},
 																	"Name": "Text",
@@ -10425,7 +10441,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 2786418959,
+																		"@id": 2310061801,
 																		"@typeid": 3283604
 																	}
 																}
@@ -10446,7 +10462,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 1069659971,
+																"@id": 1391484800,
 																"@typeid": 150545074
 															}
 														},
@@ -10458,7 +10474,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1788821797
+																		"@ref": 800380280
 																	}
 																},
 																"Transform": {
@@ -10519,7 +10535,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2300271954,
+																	"@id": 2622096783,
 																	"@typeid": 210448581
 																}
 															},
@@ -10528,7 +10544,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1788821797
+																		"@ref": 800380280
 																	}
 																},
 																"Transform": {
@@ -10589,7 +10605,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1316382286,
+																	"@id": 3587403254,
 																	"@typeid": 210448581
 																}
 															},
@@ -10598,7 +10614,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1788821797
+																		"@ref": 800380280
 																	}
 																},
 																"Transform": {
@@ -10659,7 +10675,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2565344374,
+																	"@id": 2603513586,
 																	"@typeid": 210448581
 																}
 															},
@@ -10668,7 +10684,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1788821797
+																		"@ref": 800380280
 																	}
 																},
 																"Transform": {
@@ -10729,13 +10745,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1581454706,
+																	"@id": 1619623918,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1788821797,
+															"@id": 800380280,
 															"@typeid": 199425826
 														}
 													}
@@ -10746,7 +10762,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 0,
@@ -10754,7 +10770,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3423680205,
+															"@id": 1435480052,
 															"@typeid": 184889937
 														}
 													},
@@ -10763,7 +10779,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 9,
@@ -10775,7 +10791,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2163786951
+																		"@ref": 3798904948
 																	}
 																},
 																"PlayheadAction": 2,
@@ -10783,13 +10799,13 @@
 																"TargetFrameIndex": 84,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 803571020,
+																	"@id": 746913267,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2163786951,
+															"@id": 3798904948,
 															"@typeid": 184889937
 														}
 													},
@@ -10798,7 +10814,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 10,
@@ -10806,7 +10822,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1827962378,
+															"@id": 2479190707,
 															"@typeid": 184889937
 														}
 													},
@@ -10815,7 +10831,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 19,
@@ -10827,7 +10843,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 112602577
+																		"@ref": 3091018866
 																	}
 																},
 																"PlayheadAction": 2,
@@ -10835,13 +10851,13 @@
 																"TargetFrameIndex": 883692880,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1751223752,
+																	"@id": 1790623922,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 112602577,
+															"@id": 3091018866,
 															"@typeid": 184889937
 														}
 													},
@@ -10850,7 +10866,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 20,
@@ -10858,7 +10874,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1492137805,
+															"@id": 1771304625,
 															"@typeid": 184889937
 														}
 													},
@@ -10867,7 +10883,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 29,
@@ -10879,7 +10895,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 508248137
+																		"@ref": 4134729521
 																	}
 																},
 																"PlayheadAction": 2,
@@ -10887,13 +10903,13 @@
 																"TargetFrameIndex": 402962000,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 4091064597,
+																	"@id": 1082737840,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 508248137,
+															"@id": 4134729521,
 															"@typeid": 184889937
 														}
 													},
@@ -10902,7 +10918,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 30,
@@ -10910,7 +10926,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 4071745300,
+															"@id": 2815015280,
 															"@typeid": 184889937
 														}
 													},
@@ -10919,7 +10935,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 3755829119
+																"@ref": 2607822815
 															}
 														},
 														"Frame": 39,
@@ -10931,7 +10947,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1156313232
+																		"@ref": 3426843439
 																	}
 																},
 																"PlayheadAction": 2,
@@ -10939,20 +10955,20 @@
 																"TargetFrameIndex": 883693136,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1415399179,
+																	"@id": 2126448495,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1156313232,
+															"@id": 3426843439,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 3755829119,
+													"@id": 2607822815,
 													"@typeid": 18887732
 												}
 											},
@@ -10961,14 +10977,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2507294467
+														"@ref": 672667552
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "ButtonWidgets/button_widget.lua",
 												"@meta": {
-													"@id": 119048551,
+													"@id": 3745529935,
 													"@typeid": 13313492
 												}
 											},
@@ -10977,14 +10993,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2507294467
+														"@ref": 672667552
 													}
 												},
 												"Name": "WidgetHandler",
 												"Enabled": true,
 												"Script": "ButtonWidgets/Button6_handler.lua",
 												"@meta": {
-													"@id": 3100691383,
+													"@id": 1813987535,
 													"@typeid": 13313492
 												}
 											}
@@ -11005,7 +11021,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2507294467,
+											"@id": 672667552,
 											"@typeid": 150545074
 										}
 									},
@@ -11017,7 +11033,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1452997224
+													"@ref": 1784269948
 												}
 											},
 											"Transform": {
@@ -11078,13 +11094,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 729067636,
+												"@id": 1013726071,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1452997224,
+										"@id": 1784269948,
 										"@typeid": 199425826
 									}
 								}
@@ -11096,7 +11112,7 @@
 							"Guide": false,
 							"Name": "Reveal",
 							"@meta": {
-								"@id": 3259614124,
+								"@id": 422981565,
 								"@typeid": 31297042
 							}
 						},
@@ -11105,7 +11121,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"ChildLayers": [
@@ -11114,7 +11130,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -11128,7 +11144,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1176035656
+												"@ref": 2791743667
 											}
 										},
 										"Name": "shape_bar-clear",
@@ -11185,7 +11201,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 63232442
+														"@ref": 2110302048
 													}
 												},
 												"Name": "Bitmap",
@@ -11193,7 +11209,7 @@
 												"Bitmap": "images/shape_bar-clear.png",
 												"ResourcePersistent": false,
 												"@meta": {
-													"@id": 3687133303,
+													"@id": 1447786962,
 													"@typeid": 110556596
 												}
 											}
@@ -11214,7 +11230,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 63232442,
+											"@id": 2110302048,
 											"@typeid": 150545074
 										}
 									},
@@ -11226,7 +11242,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1176035656
+													"@ref": 2791743667
 												}
 											},
 											"Transform": {
@@ -11287,13 +11303,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1061645986,
+												"@id": 3340914031,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1176035656,
+										"@id": 2791743667,
 										"@typeid": 199425826
 									}
 								},
@@ -11302,7 +11318,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -11316,7 +11332,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 1847684802
+												"@ref": 152315185
 											}
 										},
 										"Name": "clock-clear",
@@ -11373,7 +11389,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1313456784
+														"@ref": 218922724
 													}
 												},
 												"Name": "Bitmap",
@@ -11381,7 +11397,7 @@
 												"Bitmap": "images/clock-clear.png",
 												"ResourcePersistent": false,
 												"@meta": {
-													"@id": 3627312316,
+													"@id": 3811211858,
 													"@typeid": 110556596
 												}
 											}
@@ -11402,7 +11418,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 1313456784,
+											"@id": 218922724,
 											"@typeid": 150545074
 										}
 									},
@@ -11414,7 +11430,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 1847684802
+													"@ref": 152315185
 												}
 											},
 											"Transform": {
@@ -11475,13 +11491,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3101043881,
+												"@id": 1449534707,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 1847684802,
+										"@id": 152315185,
 										"@typeid": 199425826
 									}
 								},
@@ -11490,7 +11506,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -11504,7 +11520,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 3167399043
+												"@ref": 1807853999
 											}
 										},
 										"Name": "Button3",
@@ -11561,7 +11577,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 3640644744
+														"@ref": 2546110684
 													}
 												},
 												"Name": "Animation",
@@ -11572,7 +11588,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"ChildLayers": [],
@@ -11586,7 +11602,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 3815464138
+																	"@ref": 1472029426
 																}
 															},
 															"Name": "background",
@@ -11643,7 +11659,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 4112972769
+																			"@ref": 502578341
 																		}
 																	},
 																	"Name": "Bitmap",
@@ -11651,7 +11667,7 @@
 																	"Bitmap": "ButtonWidgets/widget_default_button_normal.png",
 																	"ResourcePersistent": true,
 																	"@meta": {
-																		"@id": 1659532980,
+																		"@id": 128072721,
 																		"@typeid": 110556596
 																	}
 																}
@@ -11672,7 +11688,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 4112972769,
+																"@id": 502578341,
 																"@typeid": 150545074
 															}
 														},
@@ -11684,7 +11700,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3815464138
+																		"@ref": 1472029426
 																	}
 																},
 																"Transform": {
@@ -11745,7 +11761,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1048617456,
+																	"@id": 1733190324,
 																	"@typeid": 210448581
 																}
 															},
@@ -11754,7 +11770,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3815464138
+																		"@ref": 1472029426
 																	}
 																},
 																"Transform": {
@@ -11815,7 +11831,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 64727788,
+																	"@id": 749300656,
 																	"@typeid": 210448581
 																}
 															},
@@ -11824,7 +11840,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3815464138
+																		"@ref": 1472029426
 																	}
 																},
 																"Transform": {
@@ -11885,7 +11901,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2751324372,
+																	"@id": 2016198936,
 																	"@typeid": 210448581
 																}
 															},
@@ -11894,7 +11910,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3815464138
+																		"@ref": 1472029426
 																	}
 																},
 																"Transform": {
@@ -11955,13 +11971,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1767434704,
+																	"@id": 1032309268,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3815464138,
+															"@id": 1472029426,
 															"@typeid": 199425826
 														}
 													},
@@ -11970,7 +11986,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"ChildLayers": [],
@@ -11984,7 +12000,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 2831574470
+																	"@ref": 4111457908
 																}
 															},
 															"Name": "label",
@@ -12041,7 +12057,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 2864010681
+																			"@ref": 2128885245
 																		}
 																	},
 																	"Name": "Text",
@@ -12076,7 +12092,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 694353790,
+																		"@id": 3965600615,
 																		"@typeid": 3283604
 																	}
 																}
@@ -12097,7 +12113,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 2864010681,
+																"@id": 2128885245,
 																"@typeid": 150545074
 															}
 														},
@@ -12109,7 +12125,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2831574470
+																		"@ref": 4111457908
 																	}
 																},
 																"Transform": {
@@ -12170,7 +12186,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2733388180,
+																	"@id": 2735016184,
 																	"@typeid": 210448581
 																}
 															},
@@ -12179,7 +12195,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2831574470
+																		"@ref": 4111457908
 																	}
 																},
 																"Transform": {
@@ -12240,7 +12256,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1749498512,
+																	"@id": 1751126516,
 																	"@typeid": 210448581
 																}
 															},
@@ -12249,7 +12265,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2831574470
+																		"@ref": 4111457908
 																	}
 																},
 																"Transform": {
@@ -12310,7 +12326,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 765608844,
+																	"@id": 767236848,
 																	"@typeid": 210448581
 																}
 															},
@@ -12319,7 +12335,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2831574470
+																		"@ref": 4111457908
 																	}
 																},
 																"Transform": {
@@ -12380,13 +12396,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 878528245,
+																	"@id": 3453833432,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2831574470,
+															"@id": 4111457908,
 															"@typeid": 199425826
 														}
 													}
@@ -12397,7 +12413,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 0,
@@ -12405,7 +12421,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3367869178,
+															"@id": 888756187,
 															"@typeid": 184889937
 														}
 													},
@@ -12414,7 +12430,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 9,
@@ -12426,7 +12442,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 764677632
+																		"@ref": 1500584346
 																	}
 																},
 																"PlayheadAction": 2,
@@ -12434,13 +12450,13 @@
 																"TargetFrameIndex": 421870424,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1671828674,
+																	"@id": 200189402,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 764677632,
+															"@id": 1500584346,
 															"@typeid": 184889937
 														}
 													},
@@ -12449,7 +12465,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 10,
@@ -12457,7 +12473,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3404106114,
+															"@id": 180870105,
 															"@typeid": 184889937
 														}
 													},
@@ -12466,7 +12482,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 19,
@@ -12478,7 +12494,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2696220032
+																		"@ref": 2544295001
 																	}
 																},
 																"PlayheadAction": 2,
@@ -12486,13 +12502,13 @@
 																"TargetFrameIndex": -516569087,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 411935420,
+																	"@id": 3787270616,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2696220032,
+															"@id": 2544295001,
 															"@typeid": 184889937
 														}
 													},
@@ -12501,7 +12517,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 20,
@@ -12509,7 +12525,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3739930687,
+															"@id": 1224580760,
 															"@typeid": 184889937
 														}
 													},
@@ -12518,7 +12534,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 29,
@@ -12530,7 +12546,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 4052171209
+																		"@ref": 1836408919
 																	}
 																},
 																"PlayheadAction": 2,
@@ -12538,13 +12554,13 @@
 																"TargetFrameIndex": -1035516144,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1731649661,
+																	"@id": 536013975,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 4052171209,
+															"@id": 1836408919,
 															"@typeid": 184889937
 														}
 													},
@@ -12553,7 +12569,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 30,
@@ -12561,7 +12577,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 2878471367,
+															"@id": 516694678,
 															"@typeid": 184889937
 														}
 													},
@@ -12570,7 +12586,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 8225136
+																"@ref": 2295582293
 															}
 														},
 														"Frame": 39,
@@ -12582,7 +12598,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2938292354
+																		"@ref": 2880119574
 																	}
 																},
 																"PlayheadAction": 2,
@@ -12590,20 +12606,20 @@
 																"TargetFrameIndex": -1222250416,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2525729155,
+																	"@id": 4123095189,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2938292354,
+															"@id": 2880119574,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 8225136,
+													"@id": 2295582293,
 													"@typeid": 18887732
 												}
 											},
@@ -12612,14 +12628,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 3640644744
+														"@ref": 2546110684
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "ButtonWidgets/button_widget.lua",
 												"@meta": {
-													"@id": 3197157863,
+													"@id": 3198806070,
 													"@typeid": 13313492
 												}
 											},
@@ -12628,14 +12644,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 3640644744
+														"@ref": 2546110684
 													}
 												},
 												"Name": "WidgetHandler",
 												"Enabled": true,
 												"Script": "ButtonWidgets/Button3_handler_1.lua",
 												"@meta": {
-													"@id": 1265615463,
+													"@id": 3810634229,
 													"@typeid": 13313492
 												}
 											}
@@ -12656,7 +12672,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 3640644744,
+											"@id": 2546110684,
 											"@typeid": 150545074
 										}
 									},
@@ -12668,7 +12684,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 3167399043
+													"@ref": 1807853999
 												}
 											},
 											"Transform": {
@@ -12729,13 +12745,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3251129676,
+												"@id": 2469943764,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 3167399043,
+										"@id": 1807853999,
 										"@typeid": 199425826
 									}
 								},
@@ -12744,7 +12760,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -12758,7 +12774,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 504386510
+												"@ref": 2455919094
 											}
 										},
 										"Name": "Label1",
@@ -12815,7 +12831,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 991214554
+														"@ref": 3566519741
 													}
 												},
 												"Name": "Animation",
@@ -12826,7 +12842,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 992114804
+																"@ref": 3927537056
 															}
 														},
 														"ChildLayers": [],
@@ -12840,7 +12856,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 3479639565
+																	"@ref": 3103984189
 																}
 															},
 															"Name": "label",
@@ -12897,7 +12913,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 3469908528
+																			"@ref": 2223868454
 																		}
 																	},
 																	"Name": "Text",
@@ -12932,7 +12948,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 4111344177,
+																		"@id": 3643358385,
 																		"@typeid": 3283604
 																	}
 																}
@@ -12953,7 +12969,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 3469908528,
+																"@id": 2223868454,
 																"@typeid": 150545074
 															}
 														},
@@ -12965,7 +12981,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3479639565
+																		"@ref": 3103984189
 																	}
 																},
 																"Transform": {
@@ -13026,7 +13042,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 405553215,
+																	"@id": 3454480437,
 																	"@typeid": 210448581
 																}
 															},
@@ -13035,7 +13051,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3479639565
+																		"@ref": 3103984189
 																	}
 																},
 																"Transform": {
@@ -13096,13 +13112,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3716630843,
+																	"@id": 2470590769,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3479639565,
+															"@id": 3103984189,
 															"@typeid": 199425826
 														}
 													}
@@ -13113,7 +13129,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 992114804
+																"@ref": 3927537056
 															}
 														},
 														"Frame": 0,
@@ -13121,7 +13137,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 611104394,
+															"@id": 240691092,
 															"@typeid": 184889937
 														}
 													},
@@ -13130,7 +13146,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 992114804
+																"@ref": 3927537056
 															}
 														},
 														"Frame": 9,
@@ -13142,7 +13158,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2542646794
+																		"@ref": 852519251
 																	}
 																},
 																"PlayheadAction": 2,
@@ -13150,13 +13166,13 @@
 																"TargetFrameIndex": 0,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 3845443396,
+																	"@id": 3847091603,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2542646794,
+															"@id": 852519251,
 															"@typeid": 184889937
 														}
 													},
@@ -13165,7 +13181,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 992114804
+																"@ref": 3927537056
 															}
 														},
 														"Frame": 10,
@@ -13173,7 +13189,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 4258006595,
+															"@id": 3827772306,
 															"@typeid": 184889937
 														}
 													},
@@ -13182,7 +13198,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 992114804
+																"@ref": 3927537056
 															}
 														},
 														"Frame": 19,
@@ -13194,7 +13210,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 239042885
+																		"@ref": 1896229906
 																	}
 																},
 																"PlayheadAction": 2,
@@ -13202,20 +13218,20 @@
 																"TargetFrameIndex": -1037125576,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1578076423,
+																	"@id": 3139205521,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 239042885,
+															"@id": 1896229906,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 992114804,
+													"@id": 3927537056,
 													"@typeid": 18887732
 												}
 											},
@@ -13224,14 +13240,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 991214554
+														"@ref": 3566519741
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "LabelWidgets/label_widget.lua",
 												"@meta": {
-													"@id": 3651769097,
+													"@id": 2214916402,
 													"@typeid": 13313492
 												}
 											}
@@ -13252,7 +13268,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 991214554,
+											"@id": 3566519741,
 											"@typeid": 150545074
 										}
 									},
@@ -13264,7 +13280,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 504386510
+													"@ref": 2455919094
 												}
 											},
 											"Transform": {
@@ -13325,13 +13341,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 712551663,
+												"@id": 4154714488,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 504386510,
+										"@id": 2455919094,
 										"@typeid": 199425826
 									}
 								},
@@ -13340,7 +13356,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -13354,7 +13370,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 4257201470
+												"@ref": 3789215678
 											}
 										},
 										"Name": "Label3",
@@ -13411,7 +13427,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1993040414
+														"@ref": 956323169
 													}
 												},
 												"Name": "Animation",
@@ -13422,7 +13438,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2441325855
+																"@ref": 317801249
 															}
 														},
 														"ChildLayers": [],
@@ -13436,7 +13452,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 2625246707
+																	"@ref": 4125040251
 																}
 															},
 															"Name": "label",
@@ -13493,7 +13509,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 1009150746
+																			"@ref": 4267400797
 																		}
 																	},
 																	"Name": "Text",
@@ -13528,7 +13544,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 4134928228,
+																		"@id": 1339754476,
 																		"@typeid": 3283604
 																	}
 																}
@@ -13549,7 +13565,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 1009150746,
+																"@id": 4267400797,
 																"@typeid": 150545074
 															}
 														},
@@ -13561,7 +13577,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2625246707
+																		"@ref": 4125040251
 																	}
 																},
 																"Transform": {
@@ -13622,7 +13638,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2090323939,
+																	"@id": 1581037305,
 																	"@typeid": 210448581
 																}
 															},
@@ -13631,7 +13647,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2625246707
+																		"@ref": 4125040251
 																	}
 																},
 																"Transform": {
@@ -13692,13 +13708,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1106434271,
+																	"@id": 597147637,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2625246707,
+															"@id": 4125040251,
 															"@typeid": 199425826
 														}
 													}
@@ -13709,7 +13725,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2441325855
+																"@ref": 317801249
 															}
 														},
 														"Frame": 0,
@@ -13717,7 +13733,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1005894641,
+															"@id": 1188343824,
 															"@typeid": 184889937
 														}
 													},
@@ -13726,7 +13742,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2441325855
+																"@ref": 317801249
 															}
 														},
 														"Frame": 9,
@@ -13738,7 +13754,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1713780723
+																		"@ref": 3551768720
 																	}
 																},
 																"PlayheadAction": 2,
@@ -13746,13 +13762,13 @@
 																"TargetFrameIndex": 673490945,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 3325300264,
+																	"@id": 499777039,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1713780723,
+															"@id": 3551768720,
 															"@typeid": 184889937
 														}
 													},
@@ -13761,7 +13777,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2441325855
+																"@ref": 317801249
 															}
 														},
 														"Frame": 10,
@@ -13769,7 +13785,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3089798368,
+															"@id": 2232054479,
 															"@typeid": 184889937
 														}
 													},
@@ -13778,7 +13794,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2441325855
+																"@ref": 317801249
 															}
 														},
 														"Frame": 19,
@@ -13790,7 +13806,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3365801954
+																		"@ref": 2843882638
 																	}
 																},
 																"PlayheadAction": 2,
@@ -13798,20 +13814,20 @@
 																"TargetFrameIndex": -423514952,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2401231583,
+																	"@id": 1543487694,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3365801954,
+															"@id": 2843882638,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 2441325855,
+													"@id": 317801249,
 													"@typeid": 18887732
 												}
 											},
@@ -13820,14 +13836,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1993040414
+														"@ref": 956323169
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "LabelWidgets/label_widget.lua",
 												"@meta": {
-													"@id": 4020313023,
+													"@id": 3162569134,
 													"@typeid": 13313492
 												}
 											}
@@ -13848,7 +13864,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 1993040414,
+											"@id": 956323169,
 											"@typeid": 150545074
 										}
 									},
@@ -13860,7 +13876,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 4257201470
+													"@ref": 3789215678
 												}
 											},
 											"Transform": {
@@ -13921,13 +13937,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1712957304,
+												"@id": 3908225265,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 4257201470,
+										"@id": 3789215678,
 										"@typeid": 199425826
 									}
 								},
@@ -13936,7 +13952,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -13950,7 +13966,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 969707893
+												"@ref": 1485611769
 											}
 										},
 										"Name": "Label4",
@@ -14007,7 +14023,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1029801167
+														"@ref": 3945158567
 													}
 												},
 												"Name": "Animation",
@@ -14018,7 +14034,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2777150428
+																"@ref": 2309164636
 															}
 														},
 														"ChildLayers": [],
@@ -14032,7 +14048,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 4280785521
+																	"@ref": 1821436342
 																}
 															},
 															"Name": "label",
@@ -14089,7 +14105,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 45911499
+																			"@ref": 2961268899
 																		}
 																	},
 																	"Name": "Text",
@@ -14124,7 +14140,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 488026027,
+																		"@id": 3331117863,
 																		"@typeid": 3283604
 																	}
 																}
@@ -14145,7 +14161,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 45911499,
+																"@id": 2961268899,
 																"@typeid": 150545074
 															}
 														},
@@ -14157,7 +14173,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 4280785521
+																		"@ref": 1821436342
 																	}
 																},
 																"Transform": {
@@ -14218,7 +14234,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 1276523482,
+																	"@id": 4191880882,
 																	"@typeid": 210448581
 																}
 															},
@@ -14227,7 +14243,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 4280785521
+																		"@ref": 1821436342
 																	}
 																},
 																"Transform": {
@@ -14288,13 +14304,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2809141187,
+																	"@id": 161339001,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 4280785521,
+															"@id": 1821436342,
 															"@typeid": 199425826
 														}
 													}
@@ -14305,7 +14321,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2777150428
+																"@ref": 2309164636
 															}
 														},
 														"Frame": 0,
@@ -14313,7 +14329,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 2999596612,
+															"@id": 696012383,
 															"@typeid": 184889937
 														}
 													},
@@ -14322,7 +14338,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2777150428
+																"@ref": 2309164636
 															}
 														},
 														"Frame": 9,
@@ -14334,7 +14350,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 3969278751
+																		"@ref": 3059437279
 																	}
 																},
 																"PlayheadAction": 2,
@@ -14342,13 +14358,13 @@
 																"TargetFrameIndex": 673490945,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 4264601634,
+																	"@id": 7445598,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 3969278751,
+															"@id": 3059437279,
 															"@typeid": 184889937
 														}
 													},
@@ -14357,7 +14373,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2777150428
+																"@ref": 2309164636
 															}
 														},
 														"Frame": 10,
@@ -14365,7 +14381,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1306266218,
+															"@id": 1739723038,
 															"@typeid": 184889937
 														}
 													},
@@ -14374,7 +14390,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 2777150428
+																"@ref": 2309164636
 															}
 														},
 														"Frame": 19,
@@ -14386,7 +14402,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2625980459
+																		"@ref": 2351551197
 																	}
 																},
 																"PlayheadAction": 2,
@@ -14394,20 +14410,20 @@
 																"TargetFrameIndex": -527409768,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2549241833,
+																	"@id": 1051156253,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2625980459,
+															"@id": 2351551197,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 2777150428,
+													"@id": 2309164636,
 													"@typeid": 18887732
 												}
 											},
@@ -14416,14 +14432,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 1029801167
+														"@ref": 3945158567
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "LabelWidgets/label_widget.lua",
 												"@meta": {
-													"@id": 1442622782,
+													"@id": 2670237693,
 													"@typeid": 13313492
 												}
 											}
@@ -14444,7 +14460,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 1029801167,
+											"@id": 3945158567,
 											"@typeid": 150545074
 										}
 									},
@@ -14456,7 +14472,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 969707893
+													"@ref": 1485611769
 												}
 											},
 											"Transform": {
@@ -14517,13 +14533,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 805000427,
+												"@id": 3472416629,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 969707893,
+										"@id": 1485611769,
 										"@typeid": 199425826
 									}
 								},
@@ -14532,7 +14548,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -14546,7 +14562,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 4269270402
+												"@ref": 3476975156
 											}
 										},
 										"Name": "Label5",
@@ -14603,7 +14619,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2921827496
+														"@ref": 274025310
 													}
 												},
 												"Name": "Animation",
@@ -14614,7 +14630,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 1133680546
+																"@ref": 5560727
 															}
 														},
 														"ChildLayers": [],
@@ -14628,7 +14644,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 958192774
+																	"@ref": 3812799729
 																}
 															},
 															"Name": "label",
@@ -14685,7 +14701,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 2258112834
+																			"@ref": 2960621894
 																		}
 																	},
 																	"Name": "Text",
@@ -14720,7 +14736,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 2155633773,
+																		"@id": 691689381,
 																		"@typeid": 3283604
 																	}
 																}
@@ -14741,7 +14757,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 2258112834,
+																"@id": 2960621894,
 																"@typeid": 150545074
 															}
 														},
@@ -14753,7 +14769,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 958192774
+																		"@ref": 3812799729
 																	}
 																},
 																"Transform": {
@@ -14814,7 +14830,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3488724817,
+																	"@id": 4191233877,
 																	"@typeid": 210448581
 																}
 															},
@@ -14823,7 +14839,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 958192774
+																		"@ref": 3812799729
 																	}
 																},
 																"Transform": {
@@ -14884,13 +14900,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2504835149,
+																	"@id": 3207344209,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 958192774,
+															"@id": 3812799729,
 															"@typeid": 199425826
 														}
 													}
@@ -14901,7 +14917,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 1133680546
+																"@ref": 5560727
 															}
 														},
 														"Frame": 0,
@@ -14909,7 +14925,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 2839296087,
+															"@id": 3395261852,
 															"@typeid": 184889937
 														}
 													},
@@ -14918,7 +14934,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 1133680546
+																"@ref": 5560727
 															}
 														},
 														"Frame": 9,
@@ -14930,7 +14946,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2131410005
+																		"@ref": 4007090011
 																	}
 																},
 																"PlayheadAction": 2,
@@ -14938,13 +14954,13 @@
 																"TargetFrameIndex": 107627,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 2486553875,
+																	"@id": 2706695067,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2131410005,
+															"@id": 4007090011,
 															"@typeid": 184889937
 														}
 													},
@@ -14953,7 +14969,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 1133680546
+																"@ref": 5560727
 															}
 														},
 														"Frame": 10,
@@ -14961,7 +14977,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 1795585432,
+															"@id": 2687375770,
 															"@typeid": 184889937
 														}
 													},
@@ -14970,7 +14986,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 1133680546
+																"@ref": 5560727
 															}
 														},
 														"Frame": 19,
@@ -14982,7 +14998,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 4159010328
+																		"@ref": 755833370
 																	}
 																},
 																"PlayheadAction": 2,
@@ -14990,20 +15006,20 @@
 																"TargetFrameIndex": -421867440,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 3134618970,
+																	"@id": 1998808985,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 4159010328,
+															"@id": 755833370,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 1133680546,
+													"@id": 5560727,
 													"@typeid": 18887732
 												}
 											},
@@ -15012,14 +15028,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 2921827496
+														"@ref": 274025310
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "LabelWidgets/label_widget.lua",
 												"@meta": {
-													"@id": 458733114,
+													"@id": 1074519866,
 													"@typeid": 13313492
 												}
 											}
@@ -15040,7 +15056,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 2921827496,
+											"@id": 274025310,
 											"@typeid": 150545074
 										}
 									},
@@ -15052,7 +15068,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 4269270402
+													"@ref": 3476975156
 												}
 											},
 											"Transform": {
@@ -15113,13 +15129,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 1136136739,
+												"@id": 3302327418,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 4269270402,
+										"@id": 3476975156,
 										"@typeid": 199425826
 									}
 								},
@@ -15128,7 +15144,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 628827733
+											"@ref": 2639854182
 										}
 									},
 									"ChildLayers": [],
@@ -15142,7 +15158,7 @@
 										"DynamicProperties": {},
 										"Owner": {
 											"@meta": {
-												"@ref": 2613731588
+												"@ref": 165897528
 											}
 										},
 										"Name": "Label6",
@@ -15199,7 +15215,7 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 253814109
+														"@ref": 103936099
 													}
 												},
 												"Name": "Animation",
@@ -15210,7 +15226,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 462031400
+																"@ref": 1637515490
 															}
 														},
 														"ChildLayers": [],
@@ -15224,7 +15240,7 @@
 															"DynamicProperties": {},
 															"Owner": {
 																"@meta": {
-																	"@ref": 2949556161
+																	"@ref": 2251597119
 																}
 															},
 															"Name": "label",
@@ -15281,7 +15297,7 @@
 																	"DynamicProperties": {},
 																	"Owner": {
 																		"@meta": {
-																			"@ref": 3564891737
+																			"@ref": 3415013727
 																		}
 																	},
 																	"Name": "Text",
@@ -15316,7 +15332,7 @@
 																	"InactiveSelectionTextColor": 4294967295,
 																	"InactiveSelectionBackgroundColor": 0,
 																	"@meta": {
-																		"@id": 3475348014,
+																		"@id": 3761278640,
 																		"@typeid": 3283604
 																	}
 																}
@@ -15337,7 +15353,7 @@
 															"Filters": [],
 															"Visible": true,
 															"@meta": {
-																"@id": 3564891737,
+																"@id": 3415013727,
 																"@typeid": 150545074
 															}
 														},
@@ -15349,7 +15365,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2949556161
+																		"@ref": 2251597119
 																	}
 																},
 																"Transform": {
@@ -15410,7 +15426,7 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 3034979989,
+																	"@id": 4021144666,
 																	"@typeid": 210448581
 																}
 															},
@@ -15419,7 +15435,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2949556161
+																		"@ref": 2251597119
 																	}
 																},
 																"Transform": {
@@ -15480,13 +15496,13 @@
 																},
 																"HasTween": false,
 																"@meta": {
-																	"@id": 2051090321,
+																	"@id": 3037254998,
 																	"@typeid": 210448581
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2949556161,
+															"@id": 2251597119,
 															"@typeid": 199425826
 														}
 													}
@@ -15497,7 +15513,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 462031400
+																"@ref": 1637515490
 															}
 														},
 														"Frame": 0,
@@ -15505,7 +15521,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 3763364768,
+															"@id": 47947288,
 															"@typeid": 184889937
 														}
 													},
@@ -15514,7 +15530,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 462031400
+																"@ref": 1637515490
 															}
 														},
 														"Frame": 9,
@@ -15526,7 +15542,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 2779475100
+																		"@ref": 2411372184
 																	}
 																},
 																"PlayheadAction": 2,
@@ -15534,13 +15550,13 @@
 																"TargetFrameIndex": -460779368,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 3098382034,
+																	"@id": 3654347799,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 2779475100,
+															"@id": 2411372184,
 															"@typeid": 184889937
 														}
 													},
@@ -15549,7 +15565,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 462031400
+																"@ref": 1637515490
 															}
 														},
 														"Frame": 10,
@@ -15557,7 +15573,7 @@
 														"Trigger": "",
 														"PlayheadCmds": [],
 														"@meta": {
-															"@id": 475871191,
+															"@id": 1091657943,
 															"@typeid": 184889937
 														}
 													},
@@ -15566,7 +15582,7 @@
 														"DynamicProperties": {},
 														"Owner": {
 															"@meta": {
-																"@ref": 462031400
+																"@ref": 1637515490
 															}
 														},
 														"Frame": 19,
@@ -15578,7 +15594,7 @@
 																"DynamicProperties": {},
 																"Owner": {
 																	"@meta": {
-																		"@ref": 1831822368
+																		"@ref": 1703486102
 																	}
 																},
 																"PlayheadAction": 2,
@@ -15586,20 +15602,20 @@
 																"TargetFrameIndex": -1039996080,
 																"TargetFramePath": "",
 																"@meta": {
-																	"@id": 1143255583,
+																	"@id": 403091158,
 																	"@typeid": 81700260
 																}
 															}
 														],
 														"@meta": {
-															"@id": 1831822368,
+															"@id": 1703486102,
 															"@typeid": 184889937
 														}
 													}
 												],
 												"CurrentFrame": 0,
 												"@meta": {
-													"@id": 462031400,
+													"@id": 1637515490,
 													"@typeid": 18887732
 												}
 											},
@@ -15608,14 +15624,14 @@
 												"DynamicProperties": {},
 												"Owner": {
 													"@meta": {
-														"@ref": 253814109
+														"@ref": 103936099
 													}
 												},
 												"Name": "WidgetBase",
 												"Enabled": true,
 												"Script": "LabelWidgets/label_widget.lua",
 												"@meta": {
-													"@id": 2450096501,
+													"@id": 2022172598,
 													"@typeid": 13313492
 												}
 											}
@@ -15636,7 +15652,7 @@
 										"Filters": [],
 										"Visible": true,
 										"@meta": {
-											"@id": 253814109,
+											"@id": 103936099,
 											"@typeid": 150545074
 										}
 									},
@@ -15648,7 +15664,7 @@
 											"DynamicProperties": {},
 											"Owner": {
 												"@meta": {
-													"@ref": 2613731588
+													"@ref": 165897528
 												}
 											},
 											"Transform": {
@@ -15709,13 +15725,13 @@
 											},
 											"HasTween": false,
 											"@meta": {
-												"@id": 3963120066,
+												"@id": 2053365330,
 												"@typeid": 210448581
 											}
 										}
 									],
 									"@meta": {
-										"@id": 2613731588,
+										"@id": 165897528,
 										"@typeid": 199425826
 									}
 								}
@@ -15727,7 +15743,7 @@
 							"Guide": false,
 							"Name": "Build",
 							"@meta": {
-								"@id": 3019763654,
+								"@id": 3361997684,
 								"@typeid": 31297042
 							}
 						}
@@ -15738,7 +15754,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"Frame": 0,
@@ -15750,7 +15766,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 687730267
+											"@ref": 2747196757
 										}
 									},
 									"PlayheadAction": 2,
@@ -15758,13 +15774,13 @@
 									"TargetFrameIndex": -1,
 									"TargetFramePath": "",
 									"@meta": {
-										"@id": 2818144429,
+										"@id": 3990172372,
 										"@typeid": 81700260
 									}
 								}
 							],
 							"@meta": {
-								"@id": 687730267,
+								"@id": 2747196757,
 								"@typeid": 184889937
 							}
 						},
@@ -15773,7 +15789,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"Frame": 9,
@@ -15785,7 +15801,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 3662983322
+											"@ref": 1427482516
 										}
 									},
 									"PlayheadAction": 2,
@@ -15793,13 +15809,13 @@
 									"TargetFrameIndex": -1,
 									"TargetFramePath": "",
 									"@meta": {
-										"@id": 3074797983,
+										"@id": 2670458131,
 										"@typeid": 81700260
 									}
 								}
 							],
 							"@meta": {
-								"@id": 3662983322,
+								"@id": 1427482516,
 								"@typeid": 184889937
 							}
 						},
@@ -15808,7 +15824,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"Frame": 19,
@@ -15820,7 +15836,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 2343269081
+											"@ref": 107768275
 										}
 									},
 									"PlayheadAction": 2,
@@ -15828,13 +15844,13 @@
 									"TargetFrameIndex": -1,
 									"TargetFramePath": "",
 									"@meta": {
-										"@id": 1755083742,
+										"@id": 1350743890,
 										"@typeid": 81700260
 									}
 								}
 							],
 							"@meta": {
-								"@id": 2343269081,
+								"@id": 107768275,
 								"@typeid": 184889937
 							}
 						},
@@ -15843,7 +15859,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"Frame": 29,
@@ -15855,7 +15871,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 670070068
+											"@ref": 3083021330
 										}
 									},
 									"PlayheadAction": 2,
@@ -15863,13 +15879,13 @@
 									"TargetFrameIndex": -1,
 									"TargetFramePath": "",
 									"@meta": {
-										"@id": 16289860,
+										"@id": 31029649,
 										"@typeid": 81700260
 									}
 								}
 							],
 							"@meta": {
-								"@id": 670070068,
+								"@id": 3083021330,
 								"@typeid": 184889937
 							}
 						},
@@ -15878,7 +15894,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"Frame": 39,
@@ -15890,7 +15906,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 1096492245
+											"@ref": 1763307089
 										}
 									},
 									"PlayheadAction": 2,
@@ -15898,13 +15914,13 @@
 									"TargetFrameIndex": -1,
 									"TargetFramePath": "",
 									"@meta": {
-										"@id": 3224137202,
+										"@id": 3006282704,
 										"@typeid": 81700260
 									}
 								}
 							],
 							"@meta": {
-								"@id": 1096492245,
+								"@id": 1763307089,
 								"@typeid": 184889937
 							}
 						},
@@ -15913,7 +15929,7 @@
 							"DynamicProperties": {},
 							"Owner": {
 								"@meta": {
-									"@ref": 628827733
+									"@ref": 2639854182
 								}
 							},
 							"Frame": 49,
@@ -15925,7 +15941,7 @@
 									"DynamicProperties": {},
 									"Owner": {
 										"@meta": {
-											"@ref": 349206824
+											"@ref": 1849991262
 										}
 									},
 									"PlayheadAction": 2,
@@ -15933,20 +15949,20 @@
 									"TargetFrameIndex": -1,
 									"TargetFramePath": "",
 									"@meta": {
-										"@id": 3895786348,
+										"@id": 549596318,
 										"@typeid": 81700260
 									}
 								}
 							],
 							"@meta": {
-								"@id": 349206824,
+								"@id": 1849991262,
 								"@typeid": 184889937
 							}
 						}
 					],
-					"CurrentFrame": 49,
+					"CurrentFrame": 39,
 					"@meta": {
-						"@id": 628827733,
+						"@id": 2639854182,
 						"@typeid": 18887732
 					}
 				},
@@ -15955,14 +15971,14 @@
 					"DynamicProperties": {},
 					"Owner": {
 						"@meta": {
-							"@ref": 1448998075
+							"@ref": 3779552525
 						}
 					},
 					"Name": "Script",
 					"Enabled": true,
-					"Script": "",
+					"Script": "progress_next.lua",
 					"@meta": {
-						"@id": 2661955577,
+						"@id": 2168677758,
 						"@typeid": 13313492
 					}
 				}
@@ -15983,7 +15999,7 @@
 			"Filters": [],
 			"Visible": true,
 			"@meta": {
-				"@id": 1448998075,
+				"@id": 3779552525,
 				"@typeid": 149361045
 			}
 		}

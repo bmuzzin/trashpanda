@@ -125,8 +125,12 @@ editor_metadata = {
 				Brief = "Passes an event when the level has been loaded into the world."
 				Category = "Event"
 				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
 				ExportTypeName = "level_loaded"
+				FlowNodesResourceKey = "flow_nodes_resource"
 				Id = "78dc0648-dd68-4940-98d0-01ec9cb049bb"
+				Inputs = [
+				]
 				NodeLocation = {
 					X = -220
 					Y = -960
@@ -134,10 +138,12 @@ editor_metadata = {
 				Outputs = [
 					{
 						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						Hidden = false
 						RawName = "out"
 						Type = "event"
 						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
 					}
 				]
 				Title = "Level Loaded"
@@ -147,8 +153,12 @@ editor_metadata = {
 				Brief = "Returns the time elapsed since the last frame update."
 				Category = "Utilities/Time"
 				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
 				ExportTypeName = "get_last_delta_time"
+				FlowNodesResourceKey = "flow_nodes_resource"
 				Id = "9b3fe10b-3aef-40df-b7d2-9993b7ce3e9a"
+				Inputs = [
+				]
 				NodeLocation = {
 					X = -220
 					Y = -600
@@ -156,10 +166,12 @@ editor_metadata = {
 				Outputs = [
 					{
 						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						Hidden = false
 						RawName = "time"
 						Type = "float"
 						UIName = "Time"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableFloat"
+						}
 					}
 				]
 				Title = "Get Last Delta Time"
@@ -169,8 +181,12 @@ editor_metadata = {
 				Brief = "Passes an event at every update interval of the engine."
 				Category = "Event"
 				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
 				ExportTypeName = "level_update"
+				FlowNodesResourceKey = "flow_nodes_resource"
 				Id = "20c9fb7d-3eee-4227-b272-b806c75186a0"
+				Inputs = [
+				]
 				NodeLocation = {
 					X = -220
 					Y = -540
@@ -178,10 +194,12 @@ editor_metadata = {
 				Outputs = [
 					{
 						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						Hidden = false
 						RawName = "out"
 						Type = "event"
 						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
 					}
 				]
 				Title = "Level Update"
@@ -191,8 +209,12 @@ editor_metadata = {
 				Brief = "Passes an event when the level shuts down."
 				Category = "Event"
 				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
 				ExportTypeName = "level_shutdown"
+				FlowNodesResourceKey = "flow_nodes_resource"
 				Id = "d2725917-aa5d-4a1e-9110-7f8f1f5b4b1b"
+				Inputs = [
+				]
 				NodeLocation = {
 					X = -220
 					Y = -780
@@ -200,10 +222,12 @@ editor_metadata = {
 				Outputs = [
 					{
 						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						Hidden = false
 						RawName = "out"
 						Type = "event"
 						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
 					}
 				]
 				Title = "Level Shutdown"
@@ -228,6 +252,7 @@ editor_metadata = {
 					}
 				]
 				Brief = "Sets the active camera for the engine."
+				Category = "Camera"
 				Class = "Stingray.Foundation.Flow.CustomScriptNode"
 				FlowNodesResource = "core/appkit/appkit"
 				FlowNodesResourceKey = "flow_nodes_resource"
@@ -252,7 +277,9 @@ editor_metadata = {
 				Brief = "Returns the camera with the specified camera name in the unit."
 				Category = "Unit"
 				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
 				ExportTypeName = "get_unit_camera"
+				FlowNodesResourceKey = "flow_nodes_resource"
 				Id = "7a60e4f7-5235-4b48-a249-e644b4c6270b"
 				Inputs = [
 					{
@@ -285,10 +312,12 @@ editor_metadata = {
 				Outputs = [
 					{
 						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						Hidden = false
 						RawName = "camera"
 						Type = "camera"
 						UIName = "Camera"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableCamera"
+						}
 					}
 				]
 				Title = "Get Unit Camera"
@@ -296,6 +325,7 @@ editor_metadata = {
 			}
 			{
 				Brief = "References a unit constant"
+				Category = "Data"
 				Class = "Stingray.Foundation.Flow.LevelUnit"
 				Id = "69debb87-85b1-4ae0-8e28-7e5714d4e850"
 				InEvents = [
@@ -327,8 +357,12 @@ editor_metadata = {
 				Brief = "Passes an event when the level has been loaded into the world."
 				Category = "Event"
 				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
 				ExportTypeName = "level_loaded"
+				FlowNodesResourceKey = "flow_nodes_resource"
 				Id = "2ed18eee-5a06-49b8-8e75-5c1187772bba"
+				Inputs = [
+				]
 				NodeLocation = {
 					X = 0
 					Y = -660
@@ -336,10 +370,12 @@ editor_metadata = {
 				Outputs = [
 					{
 						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						Hidden = false
 						RawName = "out"
 						Type = "event"
 						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
 					}
 				]
 				Title = "Level Loaded"
@@ -365,11 +401,23 @@ editor_metadata = {
 	]
 	LightBakeSettings = {
 		Baker = "Beast"
+		DiffuseBoost = 1
+		EmissiveScaleRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		ExcludedObjectSets = [
 		]
 		FilterGain = 20
+		FilterLightmaps = true
 		FilterType = "Both"
 		IlluminationType = "Both"
+		IndirectScaleRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		Layers = [
 		]
 		LightmapType = "Standard"
@@ -385,8 +433,6 @@ editor_metadata = {
 		TotalPasses = 256
 		Variance = 0.5
 	}
-	LuaPluginObjects = [
-	]
 	Navmeshes = [
 	]
 	Notes = [
@@ -533,6 +579,7 @@ editor_metadata = {
 					Intensity = 1
 					Material = ""
 					MaterialResource = "content/levels/basic-cubemaps/reflection_probe"
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 60
 					SpotAngleStart = 0
 					Type = "box"
@@ -599,6 +646,7 @@ editor_metadata = {
 					Intensity = 5
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "directional"
@@ -973,6 +1021,7 @@ units = [
 				falloff_start = 0
 				intensity = 1
 				material = "content/levels/basic-cubemaps/reflection_probe"
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.0471975511966
 				spot_angle_start = 0
 				type = "box"
@@ -1005,6 +1054,7 @@ units = [
 				falloff_start = 0
 				intensity = 5
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "directional"
